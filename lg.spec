@@ -152,6 +152,26 @@ Source78:	ftp://ftp.ssc.com/pub/lg/%{name}-issue78.tar.gz
 Source79:	ftp://ftp.ssc.com/pub/lg/%{name}-issue79.tar.gz
 # Source80-md5:	a8cfdd9ae4d3518718b919618b104f5d
 Source80:	ftp://ftp.ssc.com/pub/lg/%{name}-issue80.tar.gz
+# Source81-md5:	4a130b8eb86a67fa0d60066c823f8d5a
+Source81:	ftp://ftp.ssc.com/pub/lg/%{name}-issue81.tar.gz
+# Source82-md5:	a57396276627e954fe11f133820fdb0d
+Source82:	ftp://ftp.ssc.com/pub/lg/%{name}-issue82.tar.gz
+# Source83-md5:	f292624445780daf961c4098f3ce2471
+Source83:	ftp://ftp.ssc.com/pub/lg/%{name}-issue83.tar.gz
+# Source84-md5:	fc8dcab6bf809b6b263dc2d05f19ae88
+Source84:	ftp://ftp.ssc.com/pub/lg/%{name}-issue84.tar.gz
+# Source85-md5:	e129c7f389e7823613ba223e7a281dd8
+Source85:	ftp://ftp.ssc.com/pub/lg/%{name}-issue85.tar.gz
+# Source86-md5:	550717e0af6df020d4caf1d456f5d617
+Source86:	ftp://ftp.ssc.com/pub/lg/%{name}-issue86.tar.gz
+# Source87-md5:	6fd5b1506ff38b5aa9286d16ccdb1902
+Source87:	ftp://ftp.ssc.com/pub/lg/%{name}-issue87.tar.gz
+# Source88-md5:	8f10ec1d47d1679bbe3491d5c74a064c
+Source88:	ftp://ftp.ssc.com/pub/lg/%{name}-issue88.tar.gz
+# Source89-md5:	187f1b1363063ad27be5e82b0503005d
+Source89:	ftp://ftp.ssc.com/pub/lg/%{name}-issue89.tar.gz
+# Source90-md5:	94f791e15b689c1ca32854abd8031ce6
+Source90:	ftp://ftp.ssc.com/pub/lg/%{name}-issue90.tar.gz
 URL:		http://www.linuxgazette.com/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
@@ -266,8 +286,22 @@ This packages contains issues from 71 to 80 of LinuxGazette.
 %description issue71to80 -l pl
 Ten pakiet zawiera wydania od 71 do 80 LinuxGazette.
 
+%package issue81to90
+Summary:	LinuxGazette - issues 81 to 90
+Summary(pl):	LinuxGazette - wydania od 81 do 90
+Version:	1
+Group:		Documentation
+Requires:	lg-base >= 90
+Conflicts:	lg-latest <= 90
+
+%description issue81to90
+This packages contains issues from 81 to 90 of LinuxGazette.
+
+%description issue81to90 -l pl
+Ten pakiet zawiera wydania od 81 do 90 LinuxGazette.
+
 %prep
-%setup -q -n lg -b%(seq -s' -b' 9 80)
+%setup -q -n lg -b%(seq -s' -b' 9 90)
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -373,3 +407,16 @@ rm -rf $RPM_BUILD_ROOT
 %{_defaultdocdir}/LinuxGazette/issue78
 %{_defaultdocdir}/LinuxGazette/issue79
 %{_defaultdocdir}/LinuxGazette/issue80
+
+%files issue81to90
+%defattr(644,root,root,755)
+%{_defaultdocdir}/LinuxGazette/issue81
+%{_defaultdocdir}/LinuxGazette/issue82
+%{_defaultdocdir}/LinuxGazette/issue83
+%{_defaultdocdir}/LinuxGazette/issue84
+%{_defaultdocdir}/LinuxGazette/issue85
+%{_defaultdocdir}/LinuxGazette/issue86
+%{_defaultdocdir}/LinuxGazette/issue87
+%{_defaultdocdir}/LinuxGazette/issue88
+%{_defaultdocdir}/LinuxGazette/issue89
+%{_defaultdocdir}/LinuxGazette/issue90
