@@ -5,173 +5,173 @@ Version:	90
 Release:	1
 License:	distributable
 Group:		Documentation
-# Source0-md5:	1717bed7674e69c54476351ac0c7fc6d
-Source0:	ftp://ftp.ssc.com/pub/lg/%{name}-issue01to08.tar.gz
-# Source9-md5:	d1dd7a2e44a211aaf721f107fa726dea
-Source9:	ftp://ftp.ssc.com/pub/lg/%{name}-issue09.tar.gz
-# Source10-md5:	9f2e62909c97577b41d6484521be5d7a
-Source10:	ftp://ftp.ssc.com/pub/lg/%{name}-issue10.tar.gz
-# Source11-md5:	5dbaf538c22381e45e8639e5d47e82dd
-Source11:	ftp://ftp.ssc.com/pub/lg/%{name}-issue11.tar.gz
-# Source12-md5:	297f7331c603d4a9e2d196d4ae8a9d50
-Source12:	ftp://ftp.ssc.com/pub/lg/%{name}-issue12.tar.gz
-# Source13-md5:	48a130ec1d010c24514b2c71a0c68d4b
-Source13:	ftp://ftp.ssc.com/pub/lg/%{name}-issue13.tar.gz
-# Source14-md5:	ea11d9b4c769533741dec9a03096c8eb
-Source14:	ftp://ftp.ssc.com/pub/lg/%{name}-issue14.tar.gz
-# Source15-md5:	ff81c13963d9f48a59bf0907e56680b1
-Source15:	ftp://ftp.ssc.com/pub/lg/%{name}-issue15.tar.gz
-# Source16-md5:	e05adec228cc71677052a95f00be1908
-Source16:	ftp://ftp.ssc.com/pub/lg/%{name}-issue16.tar.gz
-# Source17-md5:	32e784fb8c401ef69206e34ed0be16a8
-Source17:	ftp://ftp.ssc.com/pub/lg/%{name}-issue17.tar.gz
-# Source18-md5:	d87bd5685dd42ec8735121948e592c2c
-Source18:	ftp://ftp.ssc.com/pub/lg/%{name}-issue18.tar.gz
-# Source19-md5:	fdaabceb0647f8b35b9cc4af2466f1a6
-Source19:	ftp://ftp.ssc.com/pub/lg/%{name}-issue19.tar.gz
-# Source20-md5:	274d1c481faf2b6b0e6dab1ca17d9829
-Source20:	ftp://ftp.ssc.com/pub/lg/%{name}-issue20.tar.gz
-# Source21-md5:	6ab9377ed026835d1f2474f68652055a
-Source21:	ftp://ftp.ssc.com/pub/lg/%{name}-issue21.tar.gz
-# Source22-md5:	bd79c7715b18f79a892c8bdb51e92f16
-Source22:	ftp://ftp.ssc.com/pub/lg/%{name}-issue22.tar.gz
-# Source23-md5:	f687189553993970f191c866ceeca146
-Source23:	ftp://ftp.ssc.com/pub/lg/%{name}-issue23.tar.gz
-# Source24-md5:	720f955ae755215f58362e3e440e66cd
-Source24:	ftp://ftp.ssc.com/pub/lg/%{name}-issue24.tar.gz
-# Source25-md5:	71a5b74374ac9dd30d5f3966c6dc7930
-Source25:	ftp://ftp.ssc.com/pub/lg/%{name}-issue25.tar.gz
-# Source26-md5:	bd573a5f9254b8dffd3b4e6cbee279ea
-Source26:	ftp://ftp.ssc.com/pub/lg/%{name}-issue26.tar.gz
-# Source27-md5:	91a4c64e6ed4810c7e33b825a148cdb7
-Source27:	ftp://ftp.ssc.com/pub/lg/%{name}-issue27.tar.gz
-# Source28-md5:	432d4d3960836bdb01998c26aac69071
-Source28:	ftp://ftp.ssc.com/pub/lg/%{name}-issue28.tar.gz
-# Source29-md5:	f528801b82352e335265c21aaa789e88
-Source29:	ftp://ftp.ssc.com/pub/lg/%{name}-issue29.tar.gz
-# Source30-md5:	6c87f613af42d63de3d53f01fd77b919
-Source30:	ftp://ftp.ssc.com/pub/lg/%{name}-issue30.tar.gz
-# Source31-md5:	e3711654e727692a628c49231b1548cd
-Source31:	ftp://ftp.ssc.com/pub/lg/%{name}-issue31.tar.gz
-# Source32-md5:	117d0260205ab76afd0f938b12561bd4
-Source32:	ftp://ftp.ssc.com/pub/lg/%{name}-issue32.tar.gz
-# Source33-md5:	a774b890f89e3d93ba7704ec54f20f7d
-Source33:	ftp://ftp.ssc.com/pub/lg/%{name}-issue33.tar.gz
-# Source34-md5:	175e69e3523d4f9a1627d7345fa09863
-Source34:	ftp://ftp.ssc.com/pub/lg/%{name}-issue34.tar.gz
-# Source35-md5:	4215b62674d948e476e30b4a8d1f028f
-Source35:	ftp://ftp.ssc.com/pub/lg/%{name}-issue35.tar.gz
-# Source36-md5:	d1f969193023b1c34e42dc026069cff9
-Source36:	ftp://ftp.ssc.com/pub/lg/%{name}-issue36.tar.gz
-# Source37-md5:	b78a07dbacd6477c06f0aed0707ffee7
-Source37:	ftp://ftp.ssc.com/pub/lg/%{name}-issue37.tar.gz
-# Source38-md5:	43db28df19347f80ebada97e9c7a475c
-Source38:	ftp://ftp.ssc.com/pub/lg/%{name}-issue38.tar.gz
-# Source39-md5:	894329b4e360e7fb8eef90047a1540ce
-Source39:	ftp://ftp.ssc.com/pub/lg/%{name}-issue39.tar.gz
-# Source40-md5:	7f2cd123ea28991a19ddb12b3aedba0a
-Source40:	ftp://ftp.ssc.com/pub/lg/%{name}-issue40.tar.gz
-# Source41-md5:	37d7f27367579165ea5ade8853896a3a
-Source41:	ftp://ftp.ssc.com/pub/lg/%{name}-issue41.tar.gz
-# Source42-md5:	9117ded33e08de17bd0fadbe1f25340d
-Source42:	ftp://ftp.ssc.com/pub/lg/%{name}-issue42.tar.gz
-# Source43-md5:	c69ecc4effd01f4e6301aa7c5987c6d6
-Source43:	ftp://ftp.ssc.com/pub/lg/%{name}-issue43.tar.gz
-# Source44-md5:	306d1e98752505eb3e2a89a563a5ae54
-Source44:	ftp://ftp.ssc.com/pub/lg/%{name}-issue44.tar.gz
-# Source45-md5:	ac61858c1f97a7089c40cbfae942904f
-Source45:	ftp://ftp.ssc.com/pub/lg/%{name}-issue45.tar.gz
-# Source46-md5:	ce3f4b7fcf5ad97f7e730a844a630536
-Source46:	ftp://ftp.ssc.com/pub/lg/%{name}-issue46.tar.gz
-# Source47-md5:	c558731302f75ea0b52e4ed240f4f461
-Source47:	ftp://ftp.ssc.com/pub/lg/%{name}-issue47.tar.gz
-# Source48-md5:	4d7ff70aa0ff2d3954935358b64708d3
-Source48:	ftp://ftp.ssc.com/pub/lg/%{name}-issue48.tar.gz
-# Source49-md5:	d14d3726040cb57f01cb82f709b9cc0b
-Source49:	ftp://ftp.ssc.com/pub/lg/%{name}-issue49.tar.gz
-# Source50-md5:	fba3b109d80e78d37d95d9eb264f3505
-Source50:	ftp://ftp.ssc.com/pub/lg/%{name}-issue50.tar.gz
-# Source51-md5:	3f2ca36873630902d9e03ca1e3959a2c
-Source51:	ftp://ftp.ssc.com/pub/lg/%{name}-issue51.tar.gz
-# Source52-md5:	1b2d6286291200777338f5eadaf2cb59
-Source52:	ftp://ftp.ssc.com/pub/lg/%{name}-issue52.tar.gz
-# Source53-md5:	6fd9b51921f21b546f5b0fa73ea80df3
-Source53:	ftp://ftp.ssc.com/pub/lg/%{name}-issue53.tar.gz
-# Source54-md5:	629d536ab250833847ce54ce5de551ad
-Source54:	ftp://ftp.ssc.com/pub/lg/%{name}-issue54.tar.gz
-# Source55-md5:	a8f6b362a9b2244614552ffeb922b14a
-Source55:	ftp://ftp.ssc.com/pub/lg/%{name}-issue55.tar.gz
-# Source56-md5:	1758af0e53cb900a83b54e6cf3fea0d9
-Source56:	ftp://ftp.ssc.com/pub/lg/%{name}-issue56.tar.gz
-# Source57-md5:	3af462d05a65ccd491fe2ebc6e177c1d
-Source57:	ftp://ftp.ssc.com/pub/lg/%{name}-issue57.tar.gz
-# Source58-md5:	b4b144e4f47042a1e0115e7aa81b748f
-Source58:	ftp://ftp.ssc.com/pub/lg/%{name}-issue58.tar.gz
-# Source59-md5:	9ad48257ea0fbc8d87ebbe81f6b386c4
-Source59:	ftp://ftp.ssc.com/pub/lg/%{name}-issue59.tar.gz
-# Source60-md5:	65136e4b441d7912c88d360266133ac6
-Source60:	ftp://ftp.ssc.com/pub/lg/%{name}-issue60.tar.gz
-# Source61-md5:	cb4eb2a59495485ca6e9bbc7b47a56f4
-Source61:	ftp://ftp.ssc.com/pub/lg/%{name}-issue61.tar.gz
-# Source62-md5:	2e843149cbcb0ff9dffe212e72407b8d
-Source62:	ftp://ftp.ssc.com/pub/lg/%{name}-issue62.tar.gz
-# Source63-md5:	680482a80326aec2a0f26f2707dd0aee
-Source63:	ftp://ftp.ssc.com/pub/lg/%{name}-issue63.tar.gz
-# Source64-md5:	e8cf8a9fa88f36e1d9a1e3cc4f7d72e0
-Source64:	ftp://ftp.ssc.com/pub/lg/%{name}-issue64.tar.gz
-# Source65-md5:	ef99aec36a9514d8def8510d58d2e0a7
-Source65:	ftp://ftp.ssc.com/pub/lg/%{name}-issue65.tar.gz
-# Source66-md5:	56f364980f3c23f4ea08aad007735fe0
-Source66:	ftp://ftp.ssc.com/pub/lg/%{name}-issue66.tar.gz
-# Source67-md5:	b332bf92fe1d4924028c4914216bce63
-Source67:	ftp://ftp.ssc.com/pub/lg/%{name}-issue67.tar.gz
-# Source68-md5:	edc6c4b3cfc8e1ad5b26446cc2490e50
-Source68:	ftp://ftp.ssc.com/pub/lg/%{name}-issue68.tar.gz
-# Source69-md5:	ee34c9d62a177ca2c44d61c3b1b38086
-Source69:	ftp://ftp.ssc.com/pub/lg/%{name}-issue69.tar.gz
-# Source70-md5:	df08549393fbf3908a960fd6f9c3ec2b
-Source70:	ftp://ftp.ssc.com/pub/lg/%{name}-issue70.tar.gz
-# Source71-md5:	d7dde19d5c8e6ed3fd1b49711ff8e907
-Source71:	ftp://ftp.ssc.com/pub/lg/%{name}-issue71.tar.gz
-# Source72-md5:	6fd831cb7763d56266739e04c72b3138
-Source72:	ftp://ftp.ssc.com/pub/lg/%{name}-issue72.tar.gz
-# Source73-md5:	1474b506e9f2507d9ce46d986eccb1a5
-Source73:	ftp://ftp.ssc.com/pub/lg/%{name}-issue73.tar.gz
-# Source74-md5:	24b3ace691272700eb8647bfb2de4830
-Source74:	ftp://ftp.ssc.com/pub/lg/%{name}-issue74.tar.gz
-# Source75-md5:	47734644c57be6b40884ed477bc70fa0
-Source75:	ftp://ftp.ssc.com/pub/lg/%{name}-issue75.tar.gz
-# Source76-md5:	f67a09c916cca2f1b85ac363dc8e99c4
-Source76:	ftp://ftp.ssc.com/pub/lg/%{name}-issue76.tar.gz
-# Source77-md5:	cd6c0026daeedb19065aab82826532f0
-Source77:	ftp://ftp.ssc.com/pub/lg/%{name}-issue77.tar.gz
-# Source78-md5:	f5f1c701db5f9f656abfc836c606e4f4
-Source78:	ftp://ftp.ssc.com/pub/lg/%{name}-issue78.tar.gz
-# Source79-md5:	73a610407f5d4037f605dc01893c05dd
-Source79:	ftp://ftp.ssc.com/pub/lg/%{name}-issue79.tar.gz
-# Source80-md5:	a8cfdd9ae4d3518718b919618b104f5d
-Source80:	ftp://ftp.ssc.com/pub/lg/%{name}-issue80.tar.gz
-# Source81-md5:	4a130b8eb86a67fa0d60066c823f8d5a
-Source81:	ftp://ftp.ssc.com/pub/lg/%{name}-issue81.tar.gz
-# Source82-md5:	a57396276627e954fe11f133820fdb0d
-Source82:	ftp://ftp.ssc.com/pub/lg/%{name}-issue82.tar.gz
-# Source83-md5:	f292624445780daf961c4098f3ce2471
-Source83:	ftp://ftp.ssc.com/pub/lg/%{name}-issue83.tar.gz
-# Source84-md5:	fc8dcab6bf809b6b263dc2d05f19ae88
-Source84:	ftp://ftp.ssc.com/pub/lg/%{name}-issue84.tar.gz
-# Source85-md5:	e129c7f389e7823613ba223e7a281dd8
-Source85:	ftp://ftp.ssc.com/pub/lg/%{name}-issue85.tar.gz
-# Source86-md5:	550717e0af6df020d4caf1d456f5d617
-Source86:	ftp://ftp.ssc.com/pub/lg/%{name}-issue86.tar.gz
-# Source87-md5:	6fd5b1506ff38b5aa9286d16ccdb1902
-Source87:	ftp://ftp.ssc.com/pub/lg/%{name}-issue87.tar.gz
-# Source88-md5:	8f10ec1d47d1679bbe3491d5c74a064c
-Source88:	ftp://ftp.ssc.com/pub/lg/%{name}-issue88.tar.gz
-# Source89-md5:	187f1b1363063ad27be5e82b0503005d
-Source89:	ftp://ftp.ssc.com/pub/lg/%{name}-issue89.tar.gz
-# Source90-md5:	94f791e15b689c1ca32854abd8031ce6
-Source90:	ftp://ftp.ssc.com/pub/lg/%{name}-issue90.tar.gz
-URL:		http://www.linuxgazette.com/
+Source0:	http://linuxgazette.net/ftpfiles/%{name}-issue01to08.tar.gz
+# Source0-md5:	5793d525ad4a16edfdf8c7663cfbc58d
+Source9:	http://linuxgazette.net/ftpfiles/%{name}-issue09.tar.gz
+# Source9-md5:	c41eec92b1ae27bcb3bfb7f0602d3eeb
+Source10:	http://linuxgazette.net/ftpfiles/%{name}-issue10.tar.gz
+# Source10-md5:	a981a6ea9f2fb2685ad7b0a79e5627d5
+Source11:	http://linuxgazette.net/ftpfiles/%{name}-issue11.tar.gz
+# Source11-md5:	be8c93e70758cfbe38e63fd1a63b5ef9
+Source12:	http://linuxgazette.net/ftpfiles/%{name}-issue12.tar.gz
+# Source12-md5:	3f4bda0711e0658d68ac1590d68c2cb0
+Source13:	http://linuxgazette.net/ftpfiles/%{name}-issue13.tar.gz
+# Source13-md5:	91538a740bd9621dd29ca87bb72514d3
+Source14:	http://linuxgazette.net/ftpfiles/%{name}-issue14.tar.gz
+# Source14-md5:	b1ab9aeaa4163c0bc0c6b617554d616d
+Source15:	http://linuxgazette.net/ftpfiles/%{name}-issue15.tar.gz
+# Source15-md5:	3dbb466d54595219e6fc5d6924ce2e4d
+Source16:	http://linuxgazette.net/ftpfiles/%{name}-issue16.tar.gz
+# Source16-md5:	4ad07270f80665788175e4cc0d8899df
+Source17:	http://linuxgazette.net/ftpfiles/%{name}-issue17.tar.gz
+# Source17-md5:	a3a8c382f4a69e32f59d2611568eaeea
+Source18:	http://linuxgazette.net/ftpfiles/%{name}-issue18.tar.gz
+# Source18-md5:	65d246f8a426b91ae7f4962744c730c1
+Source19:	http://linuxgazette.net/ftpfiles/%{name}-issue19.tar.gz
+# Source19-md5:	f330424c026be41178a0b14570dce75c
+Source20:	http://linuxgazette.net/ftpfiles/%{name}-issue20.tar.gz
+# Source20-md5:	3697eba47fabd171d1333fca6e1dea05
+Source21:	http://linuxgazette.net/ftpfiles/%{name}-issue21.tar.gz
+# Source21-md5:	1bc7ea2ee80bc988d832fc3bd56742c2
+Source22:	http://linuxgazette.net/ftpfiles/%{name}-issue22.tar.gz
+# Source22-md5:	b7271a6707890e1941200ed4d099df5d
+Source23:	http://linuxgazette.net/ftpfiles/%{name}-issue23.tar.gz
+# Source23-md5:	3dd0243131a81387e7194f195337efa2
+Source24:	http://linuxgazette.net/ftpfiles/%{name}-issue24.tar.gz
+# Source24-md5:	90bcfd9bbbb34d53eccd0cef8037203b
+Source25:	http://linuxgazette.net/ftpfiles/%{name}-issue25.tar.gz
+# Source25-md5:	e406a4ff4fda091a4f9158f65ce41851
+Source26:	http://linuxgazette.net/ftpfiles/%{name}-issue26.tar.gz
+# Source26-md5:	5978a69ca242e3f47f67f173ae3865c6
+Source27:	http://linuxgazette.net/ftpfiles/%{name}-issue27.tar.gz
+# Source27-md5:	b13cd00960902e9a68148a0a09502798
+Source28:	http://linuxgazette.net/ftpfiles/%{name}-issue28.tar.gz
+# Source28-md5:	88fcfee2b73ee107375ecd33a9a047aa
+Source29:	http://linuxgazette.net/ftpfiles/%{name}-issue29.tar.gz
+# Source29-md5:	8060001cc3ae4b1b33f1da28823456c8
+Source30:	http://linuxgazette.net/ftpfiles/%{name}-issue30.tar.gz
+# Source30-md5:	6ca0d6e44fc16ea149e9703ff8c53cfe
+Source31:	http://linuxgazette.net/ftpfiles/%{name}-issue31.tar.gz
+# Source31-md5:	b06dadbc5486c8772b81224d0cfbf208
+Source32:	http://linuxgazette.net/ftpfiles/%{name}-issue32.tar.gz
+# Source32-md5:	b6545e04b272c8bd330d5f4d034990ba
+Source33:	http://linuxgazette.net/ftpfiles/%{name}-issue33.tar.gz
+# Source33-md5:	5ea1c6cac4c715e15861ae0a58937ed3
+Source34:	http://linuxgazette.net/ftpfiles/%{name}-issue34.tar.gz
+# Source34-md5:	3a0aada641122d95c5f91bc07fa2d723
+Source35:	http://linuxgazette.net/ftpfiles/%{name}-issue35.tar.gz
+# Source35-md5:	6fb12c06123906dfe7a3dd17679a47a1
+Source36:	http://linuxgazette.net/ftpfiles/%{name}-issue36.tar.gz
+# Source36-md5:	9756426e081e2675c311817b580cef1d
+Source37:	http://linuxgazette.net/ftpfiles/%{name}-issue37.tar.gz
+# Source37-md5:	6c4c930c2c6540469c1b837935a13b10
+Source38:	http://linuxgazette.net/ftpfiles/%{name}-issue38.tar.gz
+# Source38-md5:	55ef606c5cd71fe1cb095001d99ed8e6
+Source39:	http://linuxgazette.net/ftpfiles/%{name}-issue39.tar.gz
+# Source39-md5:	0fb3c77749ff60b0bd27bc395de321a8
+Source40:	http://linuxgazette.net/ftpfiles/%{name}-issue40.tar.gz
+# Source40-md5:	924e4e1bbb8ab076c2a825e7e648b56f
+Source41:	http://linuxgazette.net/ftpfiles/%{name}-issue41.tar.gz
+# Source41-md5:	9dd990b4ffaeadcf75a6475ae71adaf8
+Source42:	http://linuxgazette.net/ftpfiles/%{name}-issue42.tar.gz
+# Source42-md5:	20965658da0cdf5256013bbad12b4d02
+Source43:	http://linuxgazette.net/ftpfiles/%{name}-issue43.tar.gz
+# Source43-md5:	25bd8ec0e45d442f53837b9a41acd1fc
+Source44:	http://linuxgazette.net/ftpfiles/%{name}-issue44.tar.gz
+# Source44-md5:	379584ddcd34685c8c61fadbb6015585
+Source45:	http://linuxgazette.net/ftpfiles/%{name}-issue45.tar.gz
+# Source45-md5:	f98808fe3ff2b0f7a8e8fd0da96f34ce
+Source46:	http://linuxgazette.net/ftpfiles/%{name}-issue46.tar.gz
+# Source46-md5:	10c1c2df5e102cac9916ce08c8903582
+Source47:	http://linuxgazette.net/ftpfiles/%{name}-issue47.tar.gz
+# Source47-md5:	93eb1baee578842686200f2709437ac8
+Source48:	http://linuxgazette.net/ftpfiles/%{name}-issue48.tar.gz
+# Source48-md5:	ca8e910213b168c078aadba80c218295
+Source49:	http://linuxgazette.net/ftpfiles/%{name}-issue49.tar.gz
+# Source49-md5:	8567ab2d5a73279e6300cc082bc0f6c5
+Source50:	http://linuxgazette.net/ftpfiles/%{name}-issue50.tar.gz
+# Source50-md5:	5b4caeacf59c0084350baf894e6aec74
+Source51:	http://linuxgazette.net/ftpfiles/%{name}-issue51.tar.gz
+# Source51-md5:	e250ff0a854f1c4b38e69125591bb4bb
+Source52:	http://linuxgazette.net/ftpfiles/%{name}-issue52.tar.gz
+# Source52-md5:	4ae6fbf0ff541267ae09da9931cfb655
+Source53:	http://linuxgazette.net/ftpfiles/%{name}-issue53.tar.gz
+# Source53-md5:	205570d2471599f56ef3557d296ef234
+Source54:	http://linuxgazette.net/ftpfiles/%{name}-issue54.tar.gz
+# Source54-md5:	fbb68cb9c1cfdd272adeb8d56cd8591e
+Source55:	http://linuxgazette.net/ftpfiles/%{name}-issue55.tar.gz
+# Source55-md5:	85ba70405c0d131a1d1e3f1d3eb23c1f
+Source56:	http://linuxgazette.net/ftpfiles/%{name}-issue56.tar.gz
+# Source56-md5:	1d4f1c7931990ef95e269ebdb373ffd6
+Source57:	http://linuxgazette.net/ftpfiles/%{name}-issue57.tar.gz
+# Source57-md5:	f74cc2fe401db8baba7bc8b72f68ea4f
+Source58:	http://linuxgazette.net/ftpfiles/%{name}-issue58.tar.gz
+# Source58-md5:	5e0694bdaaf7451d309f6bf87ad5c2b2
+Source59:	http://linuxgazette.net/ftpfiles/%{name}-issue59.tar.gz
+# Source59-md5:	8798ae8a5f8e2de04bf05a80e1b29308
+Source60:	http://linuxgazette.net/ftpfiles/%{name}-issue60.tar.gz
+# Source60-md5:	ef4aad64f1ddf17e6b8c2b822b1d2bff
+Source61:	http://linuxgazette.net/ftpfiles/%{name}-issue61.tar.gz
+# Source61-md5:	86e0d215e63ad244e9205c0cf97d1069
+Source62:	http://linuxgazette.net/ftpfiles/%{name}-issue62.tar.gz
+# Source62-md5:	170691cd56b38da1b761815b51dcb84d
+Source63:	http://linuxgazette.net/ftpfiles/%{name}-issue63.tar.gz
+# Source63-md5:	ba3187acfff828ccce2b2452ea27332a
+Source64:	http://linuxgazette.net/ftpfiles/%{name}-issue64.tar.gz
+# Source64-md5:	2faa7f0208a453b75857fd59154f52db
+Source65:	http://linuxgazette.net/ftpfiles/%{name}-issue65.tar.gz
+# Source65-md5:	ee107a42dfb51f3d772086196b069e6c
+Source66:	http://linuxgazette.net/ftpfiles/%{name}-issue66.tar.gz
+# Source66-md5:	12e616ffcc534f09f10b087e98f95e8a
+Source67:	http://linuxgazette.net/ftpfiles/%{name}-issue67.tar.gz
+# Source67-md5:	5f10ee89f137be84e451aaa6a9d9d216
+Source68:	http://linuxgazette.net/ftpfiles/%{name}-issue68.tar.gz
+# Source68-md5:	f615df7bc7440f1cd27797bdde02772c
+Source69:	http://linuxgazette.net/ftpfiles/%{name}-issue69.tar.gz
+# Source69-md5:	aa4c243358b47324b04f3d2f0029c3a0
+Source70:	http://linuxgazette.net/ftpfiles/%{name}-issue70.tar.gz
+# Source70-md5:	63aaf1190ae61c5d6a9263774e0db4af
+Source71:	http://linuxgazette.net/ftpfiles/%{name}-issue71.tar.gz
+# Source71-md5:	3aa7152071c6d8cf289dddcfe023be50
+Source72:	http://linuxgazette.net/ftpfiles/%{name}-issue72.tar.gz
+# Source72-md5:	6659985266c105451d5d9461d877a61f
+Source73:	http://linuxgazette.net/ftpfiles/%{name}-issue73.tar.gz
+# Source73-md5:	4236c977ee54f14eee67eedb7c08586c
+Source74:	http://linuxgazette.net/ftpfiles/%{name}-issue74.tar.gz
+# Source74-md5:	2b035a30054842a05ab0705388069d05
+Source75:	http://linuxgazette.net/ftpfiles/%{name}-issue75.tar.gz
+# Source75-md5:	0eeb1a94ac4ece048728b8c1038c7eb6
+Source76:	http://linuxgazette.net/ftpfiles/%{name}-issue76.tar.gz
+# Source76-md5:	a7b3ce72c89e807274b76495c8f17f21
+Source77:	http://linuxgazette.net/ftpfiles/%{name}-issue77.tar.gz
+# Source77-md5:	d695cb42711334730e54c3158f6aac00
+Source78:	http://linuxgazette.net/ftpfiles/%{name}-issue78.tar.gz
+# Source78-md5:	dabef4db133deeb6326ee3533190725a
+Source79:	http://linuxgazette.net/ftpfiles/%{name}-issue79.tar.gz
+# Source79-md5:	19d62090370c77cefa117100fc4c51ba
+Source80:	http://linuxgazette.net/ftpfiles/%{name}-issue80.tar.gz
+# Source80-md5:	e6fe89863c28718288ebfd999b1c79de
+Source81:	http://linuxgazette.net/ftpfiles/%{name}-issue81.tar.gz
+# Source81-md5:	5a510699837742fc1646835094fbd7a9
+Source82:	http://linuxgazette.net/ftpfiles/%{name}-issue82.tar.gz
+# Source82-md5:	144f940aedbc8c5a285cb438d17abe25
+Source83:	http://linuxgazette.net/ftpfiles/%{name}-issue83.tar.gz
+# Source83-md5:	3f82e6c3b3137925759380259cadfa0a
+Source84:	http://linuxgazette.net/ftpfiles/%{name}-issue84.tar.gz
+# Source84-md5:	a807fc0c2020f16a5e3a70fbfcec61f8
+Source85:	http://linuxgazette.net/ftpfiles/%{name}-issue85.tar.gz
+# Source85-md5:	86714875e0ca063534bc56d0c432a35c
+Source86:	http://linuxgazette.net/ftpfiles/%{name}-issue86.tar.gz
+# Source86-md5:	f68af07b6ab028949789380bd5c92ede
+Source87:	http://linuxgazette.net/ftpfiles/%{name}-issue87.tar.gz
+# Source87-md5:	479903f25a7d926d39fb24b4ea976372
+Source88:	http://linuxgazette.net/ftpfiles/%{name}-issue88.tar.gz
+# Source88-md5:	8351def8c4ca3b1d0e275f29f9c55f5a
+Source89:	http://linuxgazette.net/ftpfiles/%{name}-issue89.tar.gz
+# Source89-md5:	79c69fd3f9c9a3f7ea1deaeafdf014b4
+Source90:	http://linuxgazette.net/ftpfiles/%{name}-issue90.tar.gz
+# Source90-md5:	4182ae89c111e407141e74ec9495b97d
+URL:		http://www.linuxgazette.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 
@@ -184,7 +184,6 @@ LinuxGazette - wydania od 1 do 80.
 %package issue01to10
 Summary:	LinuxGazette - issues 01 to 10
 Summary(pl):	LinuxGazette - wydania od 1 do 10
-Version:	1
 Group:		Documentation
 Requires:	lg-base >= 10
 
@@ -197,7 +196,6 @@ Ten pakiet zawiera pierwsze dziesiêæ wydañ LinuxGazette.
 %package issue11to20
 Summary:	LinuxGazette - issues 11 to 20
 Summary(pl):	LinuxGazette - wydania od 11 do 20
-Version:	1
 Group:		Documentation
 Requires:	lg-base >= 20
 
@@ -210,7 +208,6 @@ Ten pakiet zawiera wydania od 11 do 20 LinuxGazette.
 %package issue21to30
 Summary:	LinuxGazette - issues 21 to 30
 Summary(pl):	LinuxGazette - wydania od 21 do 30
-Version:	1
 Group:		Documentation
 Requires:	lg-base >= 30
 
@@ -223,7 +220,6 @@ Ten pakiet zawiera wydania od 21 do 30 LinuxGazette.
 %package issue31to40
 Summary:	LinuxGazette - issues 31 to 40
 Summary(pl):	LinuxGazette - wydania od 31 do 40
-Version:	1
 Group:		Documentation
 Requires:	lg-base >= 40
 
@@ -236,7 +232,6 @@ Ten pakiet zawiera wydania od 31 do 40 LinuxGazette.
 %package issue41to50
 Summary:	LinuxGazette - issues 41 to 50
 Summary(pl):	LinuxGazette - wydania od 41 do 50
-Version:	1
 Group:		Documentation
 Requires:	lg-base >= 50
 
@@ -249,7 +244,6 @@ Ten pakiet zawiera wydania od 41 do 50 LinuxGazette.
 %package issue51to60
 Summary:	LinuxGazette - issues 51 to 60
 Summary(pl):	LinuxGazette - wydania od 51 do 60
-Version:	1
 Group:		Documentation
 Requires:	lg-base >= 60
 
@@ -262,7 +256,6 @@ Ten pakiet zawiera wydania od 51 do 60 LinuxGazette.
 %package issue61to70
 Summary:	LinuxGazette - issues 61 to 70
 Summary(pl):	LinuxGazette - wydania od 61 do 70
-Version:	1
 Group:		Documentation
 Requires:	lg-base >= 70
 
@@ -275,7 +268,6 @@ Ten pakiet zawiera wydania od 61 do 70 LinuxGazette.
 %package issue71to80
 Summary:	LinuxGazette - issues 71 to 80
 Summary(pl):	LinuxGazette - wydania od 71 do 80
-Version:	1
 Group:		Documentation
 Requires:	lg-base >= 80
 
@@ -288,7 +280,6 @@ Ten pakiet zawiera wydania od 71 do 80 LinuxGazette.
 %package issue81to90
 Summary:	LinuxGazette - issues 81 to 90
 Summary(pl):	LinuxGazette - wydania od 81 do 90
-Version:	1
 Group:		Documentation
 Requires:	lg-base >= 90
 Conflicts:	lg-latest <= 90
