@@ -194,83 +194,10 @@ This packages contains issues from 71 to 80 of LinuxGazette.
 Ten pakiet zawiera wydania od 71 do 80 LinuxGazette.
 
 %prep
-%setup -q -b 0  -n lg/issue01to08
-%setup -q -b 9  -n lg/issue09
-%setup -q -b 10 -n lg/issue10
-%setup -q -b 11 -n lg/issue11
-%setup -q -b 12 -n lg/issue12
-%setup -q -b 13 -n lg/issue13
-%setup -q -b 14 -n lg/issue14
-%setup -q -b 15 -n lg/issue15
-%setup -q -b 16 -n lg/issue16
-%setup -q -b 17 -n lg/issue17
-%setup -q -b 18 -n lg/issue18
-%setup -q -b 19 -n lg/issue19
-%setup -q -b 20 -n lg/issue20
-%setup -q -b 21 -n lg/issue21
-%setup -q -b 22 -n lg/issue22
-%setup -q -b 23 -n lg/issue23
-%setup -q -b 24 -n lg/issue24
-%setup -q -b 25 -n lg/issue25
-%setup -q -b 26 -n lg/issue26
-%setup -q -b 27 -n lg/issue27
-%setup -q -b 28 -n lg/issue28
-%setup -q -b 29 -n lg/issue29
-%setup -q -b 30 -n lg/issue30
-%setup -q -b 31 -n lg/issue31
-%setup -q -b 32 -n lg/issue32
-%setup -q -b 33 -n lg/issue33
-%setup -q -b 34 -n lg/issue34
-%setup -q -b 35 -n lg/issue35
-%setup -q -b 36 -n lg/issue36
-%setup -q -b 37 -n lg/issue37
-%setup -q -b 38 -n lg/issue38
-%setup -q -b 39 -n lg/issue39
-%setup -q -b 40 -n lg/issue40
-%setup -q -b 41 -n lg/issue41
-%setup -q -b 42 -n lg/issue42
-%setup -q -b 43 -n lg/issue43
-%setup -q -b 44 -n lg/issue44
-%setup -q -b 45 -n lg/issue45
-%setup -q -b 46 -n lg/issue46
-%setup -q -b 47 -n lg/issue47
-%setup -q -b 48 -n lg/issue48
-%setup -q -b 49 -n lg/issue49
-%setup -q -b 50 -n lg/issue50
-%setup -q -b 51 -n lg/issue51
-%setup -q -b 52 -n lg/issue52
-%setup -q -b 53 -n lg/issue53
-%setup -q -b 54 -n lg/issue54
-%setup -q -b 55 -n lg/issue55
-%setup -q -b 56 -n lg/issue56
-%setup -q -b 57 -n lg/issue57
-%setup -q -b 58 -n lg/issue58
-%setup -q -b 59 -n lg/issue59
-%setup -q -b 60 -n lg/issue60
-%setup -q -b 61 -n lg/issue61
-%setup -q -b 62 -n lg/issue62
-%setup -q -b 63 -n lg/issue63
-%setup -q -b 64 -n lg/issue64
-%setup -q -b 65 -n lg/issue65
-%setup -q -b 66 -n lg/issue66
-%setup -q -b 67 -n lg/issue67
-%setup -q -b 68 -n lg/issue68
-%setup -q -b 69 -n lg/issue69
-%setup -q -b 70 -n lg/issue70
-%setup -q -b 71 -n lg/issue71
-%setup -q -b 72 -n lg/issue72
-%setup -q -b 73 -n lg/issue73
-%setup -q -b 74 -n lg/issue74
-%setup -q -b 75 -n lg/issue75
-%setup -q -b 76 -n lg/issue76
-%setup -q -b 77 -n lg/issue77
-%setup -q -b 78 -n lg/issue78
-%setup -q -b 79 -n lg/issue79
-%setup -q -b 80 -n lg/issue80
+%setup -q -n lg %(seq -s' ' 9 80 | sed -e 's/\(^\| \)/ -b/g')
 
 %install
 rm -rf $RPM_BUILD_ROOT
-cd ..
 install -d $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
 cp -ar * $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
 
