@@ -355,6 +355,7 @@ This packages contains issues from 101 to 110 of LinuxGazette.
 
 %description issue101to110 -l pl
 Ten pakiet zawiera wydania od 101 do 110 LinuxGazette.
+
 %prep
 %setup -q -n lg -b%(seq -s' -b' 9 110)
 for i in `seq 100 110`; do mv -f $i issue$i; done;
