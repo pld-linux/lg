@@ -5,8 +5,7 @@ Release:	2
 URL:		http://www.linuxgazette.org/
 License:	distributable
 Group:		Documentation
-Source0:	ftp://ftp.ssc.com/pub/lg/%{name}-base.tar.gz
-Source1:	ftp://ftp.ssc.com/pub/lg/%{name}-issue01to08.tar.gz
+Source0:	ftp://ftp.ssc.com/pub/lg/%{name}-issue01to08.tar.gz
 Source9:	ftp://ftp.ssc.com/pub/lg/%{name}-issue09.tar.gz
 Source10:	ftp://ftp.ssc.com/pub/lg/%{name}-issue10.tar.gz
 Source11:	ftp://ftp.ssc.com/pub/lg/%{name}-issue11.tar.gz
@@ -79,94 +78,67 @@ Source77:	ftp://ftp.ssc.com/pub/lg/%{name}-issue77.tar.gz
 Source78:	ftp://ftp.ssc.com/pub/lg/%{name}-issue78.tar.gz
 Source79:	ftp://ftp.ssc.com/pub/lg/%{name}-issue79.tar.gz
 Source80:	ftp://ftp.ssc.com/pub/lg/%{name}-issue80.tar.gz
-Source81:	ftp://ftp.ssc.com/pub/lg/%{name}-issue81.tar.gz
-Source82:	ftp://ftp.ssc.com/pub/lg/%{name}-issue82.tar.gz
-Source83:	ftp://ftp.ssc.com/pub/lg/%{name}-issue83.tar.gz
-Source84:	ftp://ftp.ssc.com/pub/lg/%{name}-issue84.tar.gz
-Source85:	ftp://ftp.ssc.com/pub/lg/%{name}-issue85.tar.gz
-Source86:	ftp://ftp.ssc.com/pub/lg/%{name}-issue86.tar.gz
-Source87:	ftp://ftp.ssc.com/pub/lg/%{name}-issue87.tar.gz
-Source88:	ftp://ftp.ssc.com/pub/lg/%{name}-issue88.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
-
-%package common
-Summary:	LinuxGazette - common files.
-Summary(pl):	Wspólne pliki dla LinuxGazette.
-Version:	1
-Group:		Documentation
 
 %package issue01to10
 Summary:	LinuxGazette - issues 01 to 10.
 Summary(pl):	LinuxGazette - wydania od 1 do 10.
 Version:	1
 Group:		Documentation
-Requires:	lg-common
+Requires:	lg-base >= 10
 
 %package issue11to20
 Summary:	LinuxGazette - issues 11 to 20.
 Summary(pl):	LinuxGazette - wydania od 11 do 20.
 Version:	1
 Group:		Documentation
-Requires:	lg-common
+Requires:	lg-base >= 20
 
 %package issue21to30
 Summary:	LinuxGazette - issues 21 to 30.
 Summary(pl):	LinuxGazette - wydania od 21 do 30.
 Version:	1
 Group:		Documentation
-Requires:	lg-common
+Requires:	lg-base >= 30
 
 %package issue31to40
 Summary:	LinuxGazette - issues 31 to 40.
 Summary(pl):	LinuxGazette - wydania od 31 do 40.
 Version:	1
 Group:		Documentation
-Requires:	lg-common
+Requires:	lg-base >= 40
 
 %package issue41to50
 Summary:	LinuxGazette - issues 41 to 50.
 Summary(pl):	LinuxGazette - wydania od 41 do 50.
 Version:	1
 Group:		Documentation
-Requires:	lg-common
+Requires:	lg-base >= 50
 
 %package issue51to60
 Summary:	LinuxGazette - issues 51 to 60.
 Summary(pl):	LinuxGazette - wydania od 51 do 60.
 Version:	1
 Group:		Documentation
-Requires:	lg-common
+Requires:	lg-base >= 60
 
 %package issue61to70
 Summary:	LinuxGazette - issues 61 to 70.
 Summary(pl):	LinuxGazette - wydania od 61 do 70.
 Version:	1
 Group:		Documentation
-Requires:	lg-common
+Requires:	lg-base >= 70
 
 %package issue71to80
 Summary:	LinuxGazette - issues 71 to 80.
 Summary(pl):	LinuxGazette - wydania od 71 do 80.
 Version:	1
 Group:		Documentation
-Requires:	lg-common
-
-%package issue81to90
-Summary:	LinuxGazette - issues 81 to 90.
-Summary(pl):	LinuxGazette - wydania od 81 do 90.
-Version:	1
-Group:		Documentation
-Requires:	lg-common
+Requires:	lg-base >= 80
 
 %description
 Dummy package.
-
-%description common
-This package contains common files of LinuxGazette.
-
-%description common -l pl
-Ten pakiet zawiera pliki wspólne dla wydañ LinuxGazette.
 
 %description issue01to10
 This package contains first ten issues of LinuxGazette.
@@ -216,16 +188,9 @@ This packages contains issues from 71 to 80 of LinuxGazette.
 %description issue71to80 -l pl
 Ten pakiet zawiera wydania od 71 do 80 LinuxGazette.
 
-%description issue81to90
-This packages contains issues from 81 to 90 of LinuxGazette.
-
-%description issue81to90 -l pl
-Ten pakiet zawiera wydania od 81 do 90 LinuxGazette.
-
 
 %prep
-%setup -q       -n lg
-%setup -q -b 1  -n lg/issue01to08
+%setup -q -b 0  -n lg/issue01to08
 %setup -q -b 9  -n lg/issue09
 %setup -q -b 10 -n lg/issue10
 %setup -q -b 11 -n lg/issue11
@@ -298,14 +263,6 @@ Ten pakiet zawiera wydania od 81 do 90 LinuxGazette.
 %setup -q -b 78 -n lg/issue78
 %setup -q -b 79 -n lg/issue79
 %setup -q -b 80 -n lg/issue80
-%setup -q -b 81 -n lg/issue81
-%setup -q -b 82 -n lg/issue82
-%setup -q -b 83 -n lg/issue83
-%setup -q -b 84 -n lg/issue84
-%setup -q -b 85 -n lg/issue85
-%setup -q -b 86 -n lg/issue86
-%setup -q -b 87 -n lg/issue87
-%setup -q -b 88 -n lg/issue88
 
 %build
 
@@ -319,19 +276,6 @@ cp -ar * $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
 test "$RPM_BUILD_ROOT" != "/" && rm -rf ${RPM_BUILD_ROOT}
 
 %post
-
-%files common
-%defattr(644,root,root,755)
-%{_defaultdocdir}/LinuxGazette/authors
-%{_defaultdocdir}/LinuxGazette/faq
-%{_defaultdocdir}/LinuxGazette/gx
-%{_defaultdocdir}/LinuxGazette/tag
-%{_defaultdocdir}/LinuxGazette/404.html
-%{_defaultdocdir}/LinuxGazette/copying.html
-%{_defaultdocdir}/LinuxGazette/index.html
-%{_defaultdocdir}/LinuxGazette/lg_index.html
-%{_defaultdocdir}/LinuxGazette/mirrors.html
-%{_defaultdocdir}/LinuxGazette/search.html
 
 %files issue01to10
 %defattr(644,root,root,755)
@@ -429,16 +373,3 @@ test "$RPM_BUILD_ROOT" != "/" && rm -rf ${RPM_BUILD_ROOT}
 %{_defaultdocdir}/LinuxGazette/issue78
 %{_defaultdocdir}/LinuxGazette/issue79
 %{_defaultdocdir}/LinuxGazette/issue80
-
-%files issue81to90
-%defattr(644,root,root,755)
-%{_defaultdocdir}/LinuxGazette/issue81
-%{_defaultdocdir}/LinuxGazette/issue82
-%{_defaultdocdir}/LinuxGazette/issue83
-%{_defaultdocdir}/LinuxGazette/issue84
-%{_defaultdocdir}/LinuxGazette/issue85
-%{_defaultdocdir}/LinuxGazette/issue86
-%{_defaultdocdir}/LinuxGazette/issue87
-%{_defaultdocdir}/LinuxGazette/issue88
-#%%{_defaultdocdir}/LinuxGazette/issue89
-#%%{_defaultdocdir}/LinuxGazette/issue90
