@@ -194,7 +194,7 @@ This packages contains issues from 71 to 80 of LinuxGazette.
 Ten pakiet zawiera wydania od 71 do 80 LinuxGazette.
 
 %prep
-%setup -q -n lg %(seq -s' ' 9 80 | sed -e 's/\(^\| \)/ -b/g')
+%setup -q -n lg -b%(seq -s' -b' 9 80)
 
 %install
 rm -rf $RPM_BUILD_ROOT
