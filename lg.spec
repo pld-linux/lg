@@ -1,8 +1,9 @@
-Summary:	LinuxGazette.
+# TODO: unpack all in single %setup, w/o '/' in -n (let --clean work)
+Summary:	LinuxGazette - issues 01 to 80
+Summary(pl):	LinuxGazette - wydania od 1 do 80
 Name:		lg
 Version:	88
 Release:	2
-URL:		http://www.linuxgazette.org/
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.ssc.com/pub/lg/%{name}-issue01to08.tar.gz
@@ -78,67 +79,22 @@ Source77:	ftp://ftp.ssc.com/pub/lg/%{name}-issue77.tar.gz
 Source78:	ftp://ftp.ssc.com/pub/lg/%{name}-issue78.tar.gz
 Source79:	ftp://ftp.ssc.com/pub/lg/%{name}-issue79.tar.gz
 Source80:	ftp://ftp.ssc.com/pub/lg/%{name}-issue80.tar.gz
+URL:		http://www.linuxgazette.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 
+%description
+LinuxGazette - issues 01 to 80.
+
+%description -l pl
+LinuxGazette - wydania od 1 do 80.
+
 %package issue01to10
-Summary:	LinuxGazette - issues 01 to 10.
-Summary(pl):	LinuxGazette - wydania od 1 do 10.
+Summary:	LinuxGazette - issues 01 to 10
+Summary(pl):	LinuxGazette - wydania od 1 do 10
 Version:	1
 Group:		Documentation
 Requires:	lg-base >= 10
-
-%package issue11to20
-Summary:	LinuxGazette - issues 11 to 20.
-Summary(pl):	LinuxGazette - wydania od 11 do 20.
-Version:	1
-Group:		Documentation
-Requires:	lg-base >= 20
-
-%package issue21to30
-Summary:	LinuxGazette - issues 21 to 30.
-Summary(pl):	LinuxGazette - wydania od 21 do 30.
-Version:	1
-Group:		Documentation
-Requires:	lg-base >= 30
-
-%package issue31to40
-Summary:	LinuxGazette - issues 31 to 40.
-Summary(pl):	LinuxGazette - wydania od 31 do 40.
-Version:	1
-Group:		Documentation
-Requires:	lg-base >= 40
-
-%package issue41to50
-Summary:	LinuxGazette - issues 41 to 50.
-Summary(pl):	LinuxGazette - wydania od 41 do 50.
-Version:	1
-Group:		Documentation
-Requires:	lg-base >= 50
-
-%package issue51to60
-Summary:	LinuxGazette - issues 51 to 60.
-Summary(pl):	LinuxGazette - wydania od 51 do 60.
-Version:	1
-Group:		Documentation
-Requires:	lg-base >= 60
-
-%package issue61to70
-Summary:	LinuxGazette - issues 61 to 70.
-Summary(pl):	LinuxGazette - wydania od 61 do 70.
-Version:	1
-Group:		Documentation
-Requires:	lg-base >= 70
-
-%package issue71to80
-Summary:	LinuxGazette - issues 71 to 80.
-Summary(pl):	LinuxGazette - wydania od 71 do 80.
-Version:	1
-Group:		Documentation
-Requires:	lg-base >= 80
-
-%description
-Dummy package.
 
 %description issue01to10
 This package contains first ten issues of LinuxGazette.
@@ -146,11 +102,25 @@ This package contains first ten issues of LinuxGazette.
 %description issue01to10 -l pl
 Ten pakiet zawiera pierwsze dziesiêæ wydañ LinuxGazette.
 
+%package issue11to20
+Summary:	LinuxGazette - issues 11 to 20
+Summary(pl):	LinuxGazette - wydania od 11 do 20
+Version:	1
+Group:		Documentation
+Requires:	lg-base >= 20
+
 %description issue11to20
 This package contains issues from 11 to 20 of LinuxGazette.
 
 %description issue11to20 -l pl
 Ten pakiet zawiera wydania od 11 do 20 LinuxGazette.
+
+%package issue21to30
+Summary:	LinuxGazette - issues 21 to 30
+Summary(pl):	LinuxGazette - wydania od 21 do 30
+Version:	1
+Group:		Documentation
+Requires:	lg-base >= 30
 
 %description issue21to30
 This package contains issues from 21 to 30 of LinuxGazette.
@@ -158,11 +128,25 @@ This package contains issues from 21 to 30 of LinuxGazette.
 %description issue21to30 -l pl
 Ten pakiet zawiera wydania od 21 do 30 LinuxGazette.
 
+%package issue31to40
+Summary:	LinuxGazette - issues 31 to 40
+Summary(pl):	LinuxGazette - wydania od 31 do 40
+Version:	1
+Group:		Documentation
+Requires:	lg-base >= 40
+
 %description issue31to40
 This packages contains issues from 31 to 40 of LinuxGazette.
 
 %description issue31to40 -l pl
 Ten pakiet zawiera wydania od 31 do 40 LinuxGazette.
+
+%package issue41to50
+Summary:	LinuxGazette - issues 41 to 50
+Summary(pl):	LinuxGazette - wydania od 41 do 50
+Version:	1
+Group:		Documentation
+Requires:	lg-base >= 50
 
 %description issue41to50
 This packages contains issues from 41 to 50 of LinuxGazette.
@@ -170,11 +154,25 @@ This packages contains issues from 41 to 50 of LinuxGazette.
 %description issue41to50 -l pl
 Ten pakiet zawiera wydania od 41 do 50 LinuxGazette.
 
+%package issue51to60
+Summary:	LinuxGazette - issues 51 to 60
+Summary(pl):	LinuxGazette - wydania od 51 do 60
+Version:	1
+Group:		Documentation
+Requires:	lg-base >= 60
+
 %description issue51to60
 This packages contains issues from 51 to 60 of LinuxGazette.
 
 %description issue51to60 -l pl
 Ten pakiet zawiera wydania od 51 do 60 LinuxGazette.
+
+%package issue61to70
+Summary:	LinuxGazette - issues 61 to 70
+Summary(pl):	LinuxGazette - wydania od 61 do 70
+Version:	1
+Group:		Documentation
+Requires:	lg-base >= 70
 
 %description issue61to70
 This packages contains issues from 61 to 70 of LinuxGazette.
@@ -182,12 +180,18 @@ This packages contains issues from 61 to 70 of LinuxGazette.
 %description issue61to70 -l pl
 Ten pakiet zawiera wydania od 61 do 70 LinuxGazette.
 
+%package issue71to80
+Summary:	LinuxGazette - issues 71 to 80
+Summary(pl):	LinuxGazette - wydania od 71 do 80
+Version:	1
+Group:		Documentation
+Requires:	lg-base >= 80
+
 %description issue71to80
 This packages contains issues from 71 to 80 of LinuxGazette.
 
 %description issue71to80 -l pl
 Ten pakiet zawiera wydania od 71 do 80 LinuxGazette.
-
 
 %prep
 %setup -q -b 0  -n lg/issue01to08
@@ -264,8 +268,6 @@ Ten pakiet zawiera wydania od 71 do 80 LinuxGazette.
 %setup -q -b 79 -n lg/issue79
 %setup -q -b 80 -n lg/issue80
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
 cd ..
@@ -273,9 +275,7 @@ install -d $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
 cp -ar * $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
 
 %clean
-test "$RPM_BUILD_ROOT" != "/" && rm -rf ${RPM_BUILD_ROOT}
-
-%post
+rm -rf $RPM_BUILD_ROOT
 
 %files issue01to10
 %defattr(644,root,root,755)
