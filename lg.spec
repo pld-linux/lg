@@ -1,9 +1,8 @@
-# TODO: unpack all in single %setup, w/o '/' in -n (let --clean work)
-Summary:	LinuxGazette - issues 01 to 80
-Summary(pl):	LinuxGazette - wydania od 1 do 80
+Summary:	LinuxGazette - issues 01 to 90
+Summary(pl):	LinuxGazette - wydania od 1 do 90
 Name:		lg
-Version:	88
-Release:	2
+Version:	90
+Release:	1
 License:	distributable
 Group:		Documentation
 # Source0-md5:	1717bed7674e69c54476351ac0c7fc6d
