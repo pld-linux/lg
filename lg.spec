@@ -79,7 +79,7 @@ Source77:	ftp://ftp.ssc.com/pub/lg/%{name}-issue77.tar.gz
 Source78:	ftp://ftp.ssc.com/pub/lg/%{name}-issue78.tar.gz
 Source79:	ftp://ftp.ssc.com/pub/lg/%{name}-issue79.tar.gz
 Source80:	ftp://ftp.ssc.com/pub/lg/%{name}-issue80.tar.gz
-URL:		http://www.linuxgazette.org/
+URL:		http://www.linuxgazette.com/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 
