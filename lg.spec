@@ -398,7 +398,7 @@ test "$RPM_BUILD_ROOT" != "/" && rm -rf ${RPM_BUILD_ROOT}
 %{_defaultdocdir}/LinuxGazette/issue84
 %{_defaultdocdir}/LinuxGazette/issue85
 %{_defaultdocdir}/LinuxGazette/issue86
-#%{_defaultdocdir}/LinuxGazette/issue87
-#%{_defaultdocdir}/LinuxGazette/issue88
-#%{_defaultdocdir}/LinuxGazette/issue89
-#%{_defaultdocdir}/LinuxGazette/issue90
+#%%{_defaultdocdir}/LinuxGazette/issue87
+#%%{_defaultdocdir}/LinuxGazette/issue88
+#%%{_defaultdocdir}/LinuxGazette/issue89
+#%%{_defaultdocdir}/LinuxGazette/issue90
