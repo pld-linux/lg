@@ -1,6 +1,6 @@
 Summary:	LinuxGazette.
 Name:		lg
-Version:	86
+Version:	88
 Release:	1
 URL:		http://www.linuxgazette.org/
 License:	distributable
@@ -84,6 +84,8 @@ Source75:	ftp://ftp.ssc.com/pub/lg/%{name}-issue83.tar.gz
 Source76:	ftp://ftp.ssc.com/pub/lg/%{name}-issue84.tar.gz
 Source77:	ftp://ftp.ssc.com/pub/lg/%{name}-issue85.tar.gz
 Source78:	ftp://ftp.ssc.com/pub/lg/%{name}-issue86.tar.gz
+Source79:	ftp://ftp.ssc.com/pub/lg/%{name}-issue87.tar.gz
+Source80:	ftp://ftp.ssc.com/pub/lg/%{name}-issue88.tar.gz
 
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
@@ -398,7 +400,7 @@ test "$RPM_BUILD_ROOT" != "/" && rm -rf ${RPM_BUILD_ROOT}
 %{_defaultdocdir}/LinuxGazette/issue84
 %{_defaultdocdir}/LinuxGazette/issue85
 %{_defaultdocdir}/LinuxGazette/issue86
-#%%{_defaultdocdir}/LinuxGazette/issue87
-#%%{_defaultdocdir}/LinuxGazette/issue88
+%{_defaultdocdir}/LinuxGazette/issue87
+%{_defaultdocdir}/LinuxGazette/issue88
 #%%{_defaultdocdir}/LinuxGazette/issue89
 #%%{_defaultdocdir}/LinuxGazette/issue90
