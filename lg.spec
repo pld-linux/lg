@@ -1,7 +1,7 @@
-Summary:	LinuxGazette - issues 01 to 90
-Summary(pl):	LinuxGazette - wydania od 1 do 90
+Summary:	LinuxGazette - issues 01 to 100
+Summary(pl):	LinuxGazette - wydania od 1 do 100
 Name:		lg
-Version:	90
+Version:	100
 Release:	1
 License:	distributable
 Group:		Documentation
@@ -171,6 +171,26 @@ Source89:	http://linuxgazette.net/ftpfiles/%{name}-issue89.tar.gz
 # Source89-md5:	79c69fd3f9c9a3f7ea1deaeafdf014b4
 Source90:	http://linuxgazette.net/ftpfiles/%{name}-issue90.tar.gz
 # Source90-md5:	4182ae89c111e407141e74ec9495b97d
+Source91:	http://linuxgazette.net/ftpfiles/%{name}-issue91.tar.gz
+# Source91-md5:	eb48d37b0eea8025700ce4485ace9c5f
+Source92:	http://linuxgazette.net/ftpfiles/%{name}-issue92.tar.gz
+# Source92-md5:	12091a6b97a7d9e7569b0535e60144f0
+Source93:	http://linuxgazette.net/ftpfiles/%{name}-issue93.tar.gz
+# Source93-md5:	e9abe936f337ee2c29a85f15a49d08c0
+Source94:	http://linuxgazette.net/ftpfiles/%{name}-issue94.tar.gz
+# Source94-md5:	9028a11669ef00c51428c2f4ab377a84
+Source95:	http://linuxgazette.net/ftpfiles/%{name}-issue95.tar.gz
+# Source95-md5:	c8fa731af1bea28c725d118c59ab48f4
+Source96:	http://linuxgazette.net/ftpfiles/%{name}-issue96.tar.gz
+# Source96-md5:	f6aa71b8c8144a5e479cdc820e9a45b6
+Source97:	http://linuxgazette.net/ftpfiles/%{name}-issue97.tar.gz
+# Source97-md5:	28149e41d42d84e9eaf3064129f704e6
+Source98:	http://linuxgazette.net/ftpfiles/%{name}-issue98.tar.gz
+# Source98-md5:	80700dbd48f802a8884e1701c1e8839d
+Source99:	http://linuxgazette.net/ftpfiles/%{name}-issue99.tar.gz
+# Source99-md5:	69bea98df9895ef34b5ef2590b46fe61
+Source100:	http://linuxgazette.net/ftpfiles/%{name}-100.tar.gz
+# Source100-md5:	649bb6fafa43893c60ec886738040cc2
 URL:		http://www.linuxgazette.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
@@ -290,8 +310,22 @@ This packages contains issues from 81 to 90 of LinuxGazette.
 %description issue81to90 -l pl
 Ten pakiet zawiera wydania od 81 do 90 LinuxGazette.
 
+%package issue91to100
+Summary:	LinuxGazette - issues 91 to 100
+Summary(pl):	LinuxGazette - wydania od 91 do 100
+Group:		Documentation
+Requires:	lg-base >= 100
+Conflicts:	lg-latest <= 100
+
+%description issue91to100
+This packages contains issues from 91 to 100 of LinuxGazette.
+
+%description issue91to100 -l pl
+Ten pakiet zawiera wydania od 91 do 100 LinuxGazette.
+
 %prep
-%setup -q -n lg -b%(seq -s' -b' 9 90)
+%setup -q -n lg -b%(seq -s' -b' 9 100)
+mv -f 100 issue100
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -410,3 +444,16 @@ rm -rf $RPM_BUILD_ROOT
 %{_defaultdocdir}/LinuxGazette/issue88
 %{_defaultdocdir}/LinuxGazette/issue89
 %{_defaultdocdir}/LinuxGazette/issue90
+
+%files issue91to100
+%defattr(644,root,root,755)
+%{_defaultdocdir}/LinuxGazette/issue91
+%{_defaultdocdir}/LinuxGazette/issue92
+%{_defaultdocdir}/LinuxGazette/issue93
+%{_defaultdocdir}/LinuxGazette/issue94
+%{_defaultdocdir}/LinuxGazette/issue95
+%{_defaultdocdir}/LinuxGazette/issue96
+%{_defaultdocdir}/LinuxGazette/issue97
+%{_defaultdocdir}/LinuxGazette/issue98
+%{_defaultdocdir}/LinuxGazette/issue99
+%{_defaultdocdir}/LinuxGazette/issue100
