@@ -282,6 +282,11 @@ Ten pakiet zawiera wydania od 81 do 90 LinuxGazette.
 %setup -q -b 76 -n lg/issue84
 %setup -q -b 77 -n lg/issue85
 %setup -q -b 78 -n lg/issue86
+%setup -q -b 79 -n lg/issue87
+%setup -q -b 80 -n lg/issue88
+#%setup -q -b 81 -n lg/issue89
+#%setup -q -b 82 -n lg/issue90
+
 %build
 
 %install
