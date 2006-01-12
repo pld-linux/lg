@@ -1,7 +1,7 @@
-Summary:	LinuxGazette - issues 01 to 110
-Summary(pl):	LinuxGazette - wydania od 1 do 110
+Summary:	LinuxGazette - issues 01 to 120
+Summary(pl):	LinuxGazette - wydania od 1 do 120
 Name:		lg
-Version:	110
+Version:	120
 Release:	1
 License:	distributable
 Group:		Documentation
@@ -206,20 +206,40 @@ Source106:	http://linuxgazette.net/ftpfiles/%{name}-106.tar.gz
 Source107:	http://linuxgazette.net/ftpfiles/%{name}-107.tar.gz
 # Source107-md5:	2a198c13c42903c425415226fdb74337
 Source108:	http://linuxgazette.net/ftpfiles/%{name}-108.tar.gz
-# Source108-md5:	da820b616b24349628ec6f44ed1c534c
+# Source108-md5:	c7bec37bd0729775fb29bbd867e926de
 Source109:	http://linuxgazette.net/ftpfiles/%{name}-109.tar.gz
-# Source109-md5:	c532e530cab4ae1109e9116131ebc440
+# Source109-md5:	5d3a61b46e09535e02da64d83f1ab74a
 Source110:	http://linuxgazette.net/ftpfiles/%{name}-110.tar.gz
-# Source110-md5:	f99a933ad92bdd55d873942117ab0135
+# Source110-md5:	0b8ad53e22a0c6716ce7b73b2d50e731
+Source111:	http://linuxgazette.net/ftpfiles/%{name}-111.tar.gz
+# Source111-md5:	6e3e64979922ae30f916c45eb6edc82b
+Source112:	http://linuxgazette.net/ftpfiles/%{name}-112.tar.gz
+# Source112-md5:	48026c92297478ae87efe9afbf1bda4c
+Source113:	http://linuxgazette.net/ftpfiles/%{name}-113.tar.gz
+# Source113-md5:	4c8915c4e98d2908dad99c5cfe0de2b5
+Source114:	http://linuxgazette.net/ftpfiles/%{name}-114.tar.gz
+# Source114-md5:	2c72b685b3663c664ef74ac6d4d81dbb
+Source115:	http://linuxgazette.net/ftpfiles/%{name}-115.tar.gz
+# Source115-md5:	4175c4939f0fbc76f506e596afc965b0
+Source116:	http://linuxgazette.net/ftpfiles/%{name}-116.tar.gz
+# Source116-md5:	84f273c5b49f8e5079016bbc85a8bf3c
+Source117:	http://linuxgazette.net/ftpfiles/%{name}-117.tar.gz
+# Source117-md5:	d3a6155f91bbbd33ce2da95b2afec654
+Source118:	http://linuxgazette.net/ftpfiles/%{name}-118.tar.gz
+# Source118-md5:	c09eb42a1a54b72a38770029fdc3e81b
+Source119:	http://linuxgazette.net/ftpfiles/%{name}-119.tar.gz
+# Source119-md5:	e4b1e5dfd33ba5f5f935b7c4b159421f
+Source120:	http://linuxgazette.net/ftpfiles/%{name}-120.tar.gz
+# Source120-md5:	80bbe58b1450953f93d226e68647a35e
 URL:		http://www.linuxgazette.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 
 %description
-LinuxGazette - issues 01 to 80.
+LinuxGazette - issues 01 to 120.
 
 %description -l pl
-LinuxGazette - wydania od 1 do 80.
+LinuxGazette - wydania od 1 do 120.
 
 %package issue01to10
 Summary:	LinuxGazette - issues 01 to 10
@@ -348,7 +368,7 @@ Summary:	LinuxGazette - issues 101 to 110
 Summary(pl):	LinuxGazette - wydania od 101 do 110
 Group:		Documentation
 Requires:	lg-base >= 110
-Conflicts:	lg-latest <= 100
+Conflicts:	lg-latest <= 110
 
 %description issue101to110
 This packages contains issues from 101 to 110 of LinuxGazette.
@@ -356,9 +376,22 @@ This packages contains issues from 101 to 110 of LinuxGazette.
 %description issue101to110 -l pl
 Ten pakiet zawiera wydania od 101 do 110 LinuxGazette.
 
+%package issue111to120
+Summary:	LinuxGazette - issues 111 to 120
+Summary(pl):	LinuxGazette - wydania od 111 do 120
+Group:		Documentation
+Requires:	lg-base >= 120
+Conflicts:	lg-latest <= 120
+
+%description issue111to120
+This packages contains issues from 111 to 120 of LinuxGazette.
+
+%description issue111to120 -l pl
+Ten pakiet zawiera wydania od 111 do 120 LinuxGazette.
+
 %prep
-%setup -q -n lg -b%(seq -s' -b' 9 110)
-for i in `seq 100 110`; do mv -f $i issue$i; done;
+%setup -q -n lg -b%(seq -s' -b' 9 120)
+for i in `seq 100 120`; do mv -f $i issue$i; done;
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -503,3 +536,16 @@ rm -rf $RPM_BUILD_ROOT
 %{_defaultdocdir}/LinuxGazette/issue108
 %{_defaultdocdir}/LinuxGazette/issue109
 %{_defaultdocdir}/LinuxGazette/issue110
+
+%files issue111to120
+%defattr(644,root,root,755)
+%{_defaultdocdir}/LinuxGazette/issue111
+%{_defaultdocdir}/LinuxGazette/issue112
+%{_defaultdocdir}/LinuxGazette/issue113
+%{_defaultdocdir}/LinuxGazette/issue114
+%{_defaultdocdir}/LinuxGazette/issue115
+%{_defaultdocdir}/LinuxGazette/issue116
+%{_defaultdocdir}/LinuxGazette/issue117
+%{_defaultdocdir}/LinuxGazette/issue118
+%{_defaultdocdir}/LinuxGazette/issue119
+%{_defaultdocdir}/LinuxGazette/issue120
