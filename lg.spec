@@ -229,11 +229,11 @@ Source118:	http://linuxgazette.net/ftpfiles/%{name}-118.tar.gz
 # Source118-md5:	c09eb42a1a54b72a38770029fdc3e81b
 Source119:	http://linuxgazette.net/ftpfiles/%{name}-119.tar.gz
 # Source119-md5:	e4b1e5dfd33ba5f5f935b7c4b159421f
-Source120:	http://linuxgazette.net/ftpfiles/%{name}-120.tar.gz
+Source120:	http://linuxgazette.net/ftpfiles/%{name}-%{version}.tar.gz
 # Source120-md5:	80bbe58b1450953f93d226e68647a35e
 URL:		http://www.linuxgazette.net/
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 LinuxGazette - issues 01 to 120.
@@ -390,13 +390,13 @@ This packages contains issues from 111 to 120 of LinuxGazette.
 Ten pakiet zawiera wydania od 111 do 120 LinuxGazette.
 
 %prep
-%setup -q -n lg -b%(seq -s' -b' 9 120)
+%setup -q -n %{name} -b%(seq -s' -b' 9 %{version})
 for i in `seq 100 120`; do mv -f $i issue$i; done;
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
-cp -ar * $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
+cp -a * $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
 
 %clean
 rm -rf $RPM_BUILD_ROOT
