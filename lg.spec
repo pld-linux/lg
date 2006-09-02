@@ -395,157 +395,157 @@ for i in `seq 100 120`; do mv -f $i issue$i; done;
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
-cp -a * $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
+install -d $RPM_BUILD_ROOT%{_docdir}/LinuxGazette
+cp -a * $RPM_BUILD_ROOT%{_docdir}/LinuxGazette
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files issue01to10
 %defattr(644,root,root,755)
-%{_defaultdocdir}/LinuxGazette/issue01to08
-%{_defaultdocdir}/LinuxGazette/issue09
-%{_defaultdocdir}/LinuxGazette/issue10
+%{_docdir}/LinuxGazette/issue01to08
+%{_docdir}/LinuxGazette/issue09
+%{_docdir}/LinuxGazette/issue10
 
 %files issue11to20
 %defattr(644,root,root,755)
-%{_defaultdocdir}/LinuxGazette/issue11
-%{_defaultdocdir}/LinuxGazette/issue12
-%{_defaultdocdir}/LinuxGazette/issue13
-%{_defaultdocdir}/LinuxGazette/issue14
-%{_defaultdocdir}/LinuxGazette/issue15
-%{_defaultdocdir}/LinuxGazette/issue16
-%{_defaultdocdir}/LinuxGazette/issue17
-%{_defaultdocdir}/LinuxGazette/issue18
-%{_defaultdocdir}/LinuxGazette/issue19
-%{_defaultdocdir}/LinuxGazette/issue20
+%{_docdir}/LinuxGazette/issue11
+%{_docdir}/LinuxGazette/issue12
+%{_docdir}/LinuxGazette/issue13
+%{_docdir}/LinuxGazette/issue14
+%{_docdir}/LinuxGazette/issue15
+%{_docdir}/LinuxGazette/issue16
+%{_docdir}/LinuxGazette/issue17
+%{_docdir}/LinuxGazette/issue18
+%{_docdir}/LinuxGazette/issue19
+%{_docdir}/LinuxGazette/issue20
 
 %files issue21to30
 %defattr(644,root,root,755)
-%{_defaultdocdir}/LinuxGazette/issue21
-%{_defaultdocdir}/LinuxGazette/issue22
-%{_defaultdocdir}/LinuxGazette/issue23
-%{_defaultdocdir}/LinuxGazette/issue24
-%{_defaultdocdir}/LinuxGazette/issue25
-%{_defaultdocdir}/LinuxGazette/issue26
-%{_defaultdocdir}/LinuxGazette/issue27
-%{_defaultdocdir}/LinuxGazette/issue28
-%{_defaultdocdir}/LinuxGazette/issue29
-%{_defaultdocdir}/LinuxGazette/issue30
+%{_docdir}/LinuxGazette/issue21
+%{_docdir}/LinuxGazette/issue22
+%{_docdir}/LinuxGazette/issue23
+%{_docdir}/LinuxGazette/issue24
+%{_docdir}/LinuxGazette/issue25
+%{_docdir}/LinuxGazette/issue26
+%{_docdir}/LinuxGazette/issue27
+%{_docdir}/LinuxGazette/issue28
+%{_docdir}/LinuxGazette/issue29
+%{_docdir}/LinuxGazette/issue30
 
 %files issue31to40
 %defattr(644,root,root,755)
-%{_defaultdocdir}/LinuxGazette/issue31
-%{_defaultdocdir}/LinuxGazette/issue32
-%{_defaultdocdir}/LinuxGazette/issue33
-%{_defaultdocdir}/LinuxGazette/issue34
-%{_defaultdocdir}/LinuxGazette/issue35
-%{_defaultdocdir}/LinuxGazette/issue36
-%{_defaultdocdir}/LinuxGazette/issue37
-%{_defaultdocdir}/LinuxGazette/issue38
-%{_defaultdocdir}/LinuxGazette/issue39
-%{_defaultdocdir}/LinuxGazette/issue40
+%{_docdir}/LinuxGazette/issue31
+%{_docdir}/LinuxGazette/issue32
+%{_docdir}/LinuxGazette/issue33
+%{_docdir}/LinuxGazette/issue34
+%{_docdir}/LinuxGazette/issue35
+%{_docdir}/LinuxGazette/issue36
+%{_docdir}/LinuxGazette/issue37
+%{_docdir}/LinuxGazette/issue38
+%{_docdir}/LinuxGazette/issue39
+%{_docdir}/LinuxGazette/issue40
 
 %files issue41to50
 %defattr(644,root,root,755)
-%{_defaultdocdir}/LinuxGazette/issue41
-%{_defaultdocdir}/LinuxGazette/issue42
-%{_defaultdocdir}/LinuxGazette/issue43
-%{_defaultdocdir}/LinuxGazette/issue44
-%{_defaultdocdir}/LinuxGazette/issue45
-%{_defaultdocdir}/LinuxGazette/issue46
-%{_defaultdocdir}/LinuxGazette/issue47
-%{_defaultdocdir}/LinuxGazette/issue48
-%{_defaultdocdir}/LinuxGazette/issue49
-%{_defaultdocdir}/LinuxGazette/issue50
+%{_docdir}/LinuxGazette/issue41
+%{_docdir}/LinuxGazette/issue42
+%{_docdir}/LinuxGazette/issue43
+%{_docdir}/LinuxGazette/issue44
+%{_docdir}/LinuxGazette/issue45
+%{_docdir}/LinuxGazette/issue46
+%{_docdir}/LinuxGazette/issue47
+%{_docdir}/LinuxGazette/issue48
+%{_docdir}/LinuxGazette/issue49
+%{_docdir}/LinuxGazette/issue50
 
 %files issue51to60
 %defattr(644,root,root,755)
-%{_defaultdocdir}/LinuxGazette/issue51
-%{_defaultdocdir}/LinuxGazette/issue52
-%{_defaultdocdir}/LinuxGazette/issue53
-%{_defaultdocdir}/LinuxGazette/issue54
-%{_defaultdocdir}/LinuxGazette/issue55
-%{_defaultdocdir}/LinuxGazette/issue56
-%{_defaultdocdir}/LinuxGazette/issue57
-%{_defaultdocdir}/LinuxGazette/issue58
-%{_defaultdocdir}/LinuxGazette/issue59
-%{_defaultdocdir}/LinuxGazette/issue60
+%{_docdir}/LinuxGazette/issue51
+%{_docdir}/LinuxGazette/issue52
+%{_docdir}/LinuxGazette/issue53
+%{_docdir}/LinuxGazette/issue54
+%{_docdir}/LinuxGazette/issue55
+%{_docdir}/LinuxGazette/issue56
+%{_docdir}/LinuxGazette/issue57
+%{_docdir}/LinuxGazette/issue58
+%{_docdir}/LinuxGazette/issue59
+%{_docdir}/LinuxGazette/issue60
 
 %files issue61to70
 %defattr(644,root,root,755)
-%{_defaultdocdir}/LinuxGazette/issue61
-%{_defaultdocdir}/LinuxGazette/issue62
-%{_defaultdocdir}/LinuxGazette/issue63
-%{_defaultdocdir}/LinuxGazette/issue64
-%{_defaultdocdir}/LinuxGazette/issue65
-%{_defaultdocdir}/LinuxGazette/issue66
-%{_defaultdocdir}/LinuxGazette/issue67
-%{_defaultdocdir}/LinuxGazette/issue68
-%{_defaultdocdir}/LinuxGazette/issue69
-%{_defaultdocdir}/LinuxGazette/issue70
+%{_docdir}/LinuxGazette/issue61
+%{_docdir}/LinuxGazette/issue62
+%{_docdir}/LinuxGazette/issue63
+%{_docdir}/LinuxGazette/issue64
+%{_docdir}/LinuxGazette/issue65
+%{_docdir}/LinuxGazette/issue66
+%{_docdir}/LinuxGazette/issue67
+%{_docdir}/LinuxGazette/issue68
+%{_docdir}/LinuxGazette/issue69
+%{_docdir}/LinuxGazette/issue70
 
 %files issue71to80
 %defattr(644,root,root,755)
-%{_defaultdocdir}/LinuxGazette/issue71
-%{_defaultdocdir}/LinuxGazette/issue72
-%{_defaultdocdir}/LinuxGazette/issue73
-%{_defaultdocdir}/LinuxGazette/issue74
-%{_defaultdocdir}/LinuxGazette/issue75
-%{_defaultdocdir}/LinuxGazette/issue76
-%{_defaultdocdir}/LinuxGazette/issue77
-%{_defaultdocdir}/LinuxGazette/issue78
-%{_defaultdocdir}/LinuxGazette/issue79
-%{_defaultdocdir}/LinuxGazette/issue80
+%{_docdir}/LinuxGazette/issue71
+%{_docdir}/LinuxGazette/issue72
+%{_docdir}/LinuxGazette/issue73
+%{_docdir}/LinuxGazette/issue74
+%{_docdir}/LinuxGazette/issue75
+%{_docdir}/LinuxGazette/issue76
+%{_docdir}/LinuxGazette/issue77
+%{_docdir}/LinuxGazette/issue78
+%{_docdir}/LinuxGazette/issue79
+%{_docdir}/LinuxGazette/issue80
 
 %files issue81to90
 %defattr(644,root,root,755)
-%{_defaultdocdir}/LinuxGazette/issue81
-%{_defaultdocdir}/LinuxGazette/issue82
-%{_defaultdocdir}/LinuxGazette/issue83
-%{_defaultdocdir}/LinuxGazette/issue84
-%{_defaultdocdir}/LinuxGazette/issue85
-%{_defaultdocdir}/LinuxGazette/issue86
-%{_defaultdocdir}/LinuxGazette/issue87
-%{_defaultdocdir}/LinuxGazette/issue88
-%{_defaultdocdir}/LinuxGazette/issue89
-%{_defaultdocdir}/LinuxGazette/issue90
+%{_docdir}/LinuxGazette/issue81
+%{_docdir}/LinuxGazette/issue82
+%{_docdir}/LinuxGazette/issue83
+%{_docdir}/LinuxGazette/issue84
+%{_docdir}/LinuxGazette/issue85
+%{_docdir}/LinuxGazette/issue86
+%{_docdir}/LinuxGazette/issue87
+%{_docdir}/LinuxGazette/issue88
+%{_docdir}/LinuxGazette/issue89
+%{_docdir}/LinuxGazette/issue90
 
 %files issue91to100
 %defattr(644,root,root,755)
-%{_defaultdocdir}/LinuxGazette/issue91
-%{_defaultdocdir}/LinuxGazette/issue92
-%{_defaultdocdir}/LinuxGazette/issue93
-%{_defaultdocdir}/LinuxGazette/issue94
-%{_defaultdocdir}/LinuxGazette/issue95
-%{_defaultdocdir}/LinuxGazette/issue96
-%{_defaultdocdir}/LinuxGazette/issue97
-%{_defaultdocdir}/LinuxGazette/issue98
-%{_defaultdocdir}/LinuxGazette/issue99
-%{_defaultdocdir}/LinuxGazette/issue100
+%{_docdir}/LinuxGazette/issue91
+%{_docdir}/LinuxGazette/issue92
+%{_docdir}/LinuxGazette/issue93
+%{_docdir}/LinuxGazette/issue94
+%{_docdir}/LinuxGazette/issue95
+%{_docdir}/LinuxGazette/issue96
+%{_docdir}/LinuxGazette/issue97
+%{_docdir}/LinuxGazette/issue98
+%{_docdir}/LinuxGazette/issue99
+%{_docdir}/LinuxGazette/issue100
 
 %files issue101to110
 %defattr(644,root,root,755)
-%{_defaultdocdir}/LinuxGazette/issue101
-%{_defaultdocdir}/LinuxGazette/issue102
-%{_defaultdocdir}/LinuxGazette/issue103
-%{_defaultdocdir}/LinuxGazette/issue104
-%{_defaultdocdir}/LinuxGazette/issue105
-%{_defaultdocdir}/LinuxGazette/issue106
-%{_defaultdocdir}/LinuxGazette/issue107
-%{_defaultdocdir}/LinuxGazette/issue108
-%{_defaultdocdir}/LinuxGazette/issue109
-%{_defaultdocdir}/LinuxGazette/issue110
+%{_docdir}/LinuxGazette/issue101
+%{_docdir}/LinuxGazette/issue102
+%{_docdir}/LinuxGazette/issue103
+%{_docdir}/LinuxGazette/issue104
+%{_docdir}/LinuxGazette/issue105
+%{_docdir}/LinuxGazette/issue106
+%{_docdir}/LinuxGazette/issue107
+%{_docdir}/LinuxGazette/issue108
+%{_docdir}/LinuxGazette/issue109
+%{_docdir}/LinuxGazette/issue110
 
 %files issue111to120
 %defattr(644,root,root,755)
-%{_defaultdocdir}/LinuxGazette/issue111
-%{_defaultdocdir}/LinuxGazette/issue112
-%{_defaultdocdir}/LinuxGazette/issue113
-%{_defaultdocdir}/LinuxGazette/issue114
-%{_defaultdocdir}/LinuxGazette/issue115
-%{_defaultdocdir}/LinuxGazette/issue116
-%{_defaultdocdir}/LinuxGazette/issue117
-%{_defaultdocdir}/LinuxGazette/issue118
-%{_defaultdocdir}/LinuxGazette/issue119
-%{_defaultdocdir}/LinuxGazette/issue120
+%{_docdir}/LinuxGazette/issue111
+%{_docdir}/LinuxGazette/issue112
+%{_docdir}/LinuxGazette/issue113
+%{_docdir}/LinuxGazette/issue114
+%{_docdir}/LinuxGazette/issue115
+%{_docdir}/LinuxGazette/issue116
+%{_docdir}/LinuxGazette/issue117
+%{_docdir}/LinuxGazette/issue118
+%{_docdir}/LinuxGazette/issue119
+%{_docdir}/LinuxGazette/issue120
