@@ -1,7 +1,7 @@
-Summary:	LinuxGazette - issues 01 to 120
-Summary(pl):	LinuxGazette - wydania od 1 do 120
+Summary:	LinuxGazette - issues 01 to 130
+Summary(pl):	LinuxGazette - wydania od 1 do 130
 Name:		lg
-Version:	120
+Version:	130
 Release:	1
 License:	distributable
 Group:		Documentation
@@ -229,8 +229,28 @@ Source118:	http://linuxgazette.net/ftpfiles/%{name}-118.tar.gz
 # Source118-md5:	c09eb42a1a54b72a38770029fdc3e81b
 Source119:	http://linuxgazette.net/ftpfiles/%{name}-119.tar.gz
 # Source119-md5:	e4b1e5dfd33ba5f5f935b7c4b159421f
-Source120:	http://linuxgazette.net/ftpfiles/%{name}-%{version}.tar.gz
+Source120:	http://linuxgazette.net/ftpfiles/%{name}-120.tar.gz
 # Source120-md5:	80bbe58b1450953f93d226e68647a35e
+Source121:	http://linuxgazette.net/ftpfiles/%{name}-121.tar.gz
+# Source121-md5:	acc32256b8a058cdca2abb97271a41ba
+Source122:	http://linuxgazette.net/ftpfiles/%{name}-122.tar.gz
+# Source122-md5:	dee1fdc50ba11c0c905d1e413a1f219d
+Source123:	http://linuxgazette.net/ftpfiles/%{name}-123.tar.gz
+# Source123-md5:	403922cd1be12e8bb500f33fbeb1101f
+Source124:	http://linuxgazette.net/ftpfiles/%{name}-124.tar.gz
+# Source124-md5:	caf1419357d284c9dc0a6abcae9c613c
+Source125:	http://linuxgazette.net/ftpfiles/%{name}-125.tar.gz
+# Source125-md5:	2e753f52d40669dee2f644f15b30daa9
+Source126:	http://linuxgazette.net/ftpfiles/%{name}-126.tar.gz
+# Source126-md5:	5a68de434a1ce9b57e7dc4319e9871e5
+Source127:	http://linuxgazette.net/ftpfiles/%{name}-127.tar.gz
+# Source127-md5:	1894d6a2ce7972daced5a2a1cd18856d
+Source128:	http://linuxgazette.net/ftpfiles/%{name}-128.tar.gz
+# Source128-md5:	fad67eb48228bbb38fe965d591bcfb48
+Source129:	http://linuxgazette.net/ftpfiles/%{name}-129.tar.gz
+# Source129-md5:	28e93ccccfe7504bbe3a46039d4c3d85
+Source130:	http://linuxgazette.net/ftpfiles/%{name}-130.tar.gz
+# Source130-md5:	bf932b3a59ede4786ae704bf238323db
 URL:		http://www.linuxgazette.net/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -389,9 +409,21 @@ This packages contains issues from 111 to 120 of LinuxGazette.
 %description issue111to120 -l pl
 Ten pakiet zawiera wydania od 111 do 120 LinuxGazette.
 
+%package issue121to130
+Summary:	LinuxGazette - issues 121 to 130
+Summary(pl):	LinuxGazette - wydania od 121 do 130
+Group:		Documentation
+Requires:	lg-base >= 130
+Conflicts:	lg-latest <= 130
+
+%description issue121to130
+This packages contains issues from 121 to 130 of LinuxGazette.
+
+%description issue121to130 -l pl
+Ten pakiet zawiera wydania od 121 do 130 LinuxGazette.
 %prep
 %setup -q -n %{name} -b%(seq -s' -b' 9 %{version})
-for i in `seq 100 120`; do mv -f $i issue$i; done;
+for i in `seq 100 130`; do mv -f $i issue$i; done;
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -549,3 +581,16 @@ rm -rf $RPM_BUILD_ROOT
 %{_docdir}/LinuxGazette/issue118
 %{_docdir}/LinuxGazette/issue119
 %{_docdir}/LinuxGazette/issue120
+
+%files issue121to130
+%defattr(644,root,root,755)
+%{_docdir}/LinuxGazette/issue121
+%{_docdir}/LinuxGazette/issue122
+%{_docdir}/LinuxGazette/issue123
+%{_docdir}/LinuxGazette/issue124
+%{_docdir}/LinuxGazette/issue125
+%{_docdir}/LinuxGazette/issue126
+%{_docdir}/LinuxGazette/issue127
+%{_docdir}/LinuxGazette/issue128
+%{_docdir}/LinuxGazette/issue129
+%{_docdir}/LinuxGazette/issue130
