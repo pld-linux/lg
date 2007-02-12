@@ -1,5 +1,5 @@
 Summary:	LinuxGazette - issues 01 to 130
-Summary(pl):	LinuxGazette - wydania od 1 do 130
+Summary(pl.UTF-8):   LinuxGazette - wydania od 1 do 130
 Name:		lg
 Version:	130
 Release:	1
@@ -258,108 +258,108 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 LinuxGazette - issues 01 to 120.
 
-%description -l pl
+%description -l pl.UTF-8
 LinuxGazette - wydania od 1 do 120.
 
 %package issue01to10
 Summary:	LinuxGazette - issues 01 to 10
-Summary(pl):	LinuxGazette - wydania od 1 do 10
+Summary(pl.UTF-8):   LinuxGazette - wydania od 1 do 10
 Group:		Documentation
 Requires:	lg-base >= 10
 
 %description issue01to10
 This package contains first ten issues of LinuxGazette.
 
-%description issue01to10 -l pl
-Ten pakiet zawiera pierwsze dziesiêæ wydañ LinuxGazette.
+%description issue01to10 -l pl.UTF-8
+Ten pakiet zawiera pierwsze dziesiÄ™Ä‡ wydaÅ„ LinuxGazette.
 
 %package issue11to20
 Summary:	LinuxGazette - issues 11 to 20
-Summary(pl):	LinuxGazette - wydania od 11 do 20
+Summary(pl.UTF-8):   LinuxGazette - wydania od 11 do 20
 Group:		Documentation
 Requires:	lg-base >= 20
 
 %description issue11to20
 This package contains issues from 11 to 20 of LinuxGazette.
 
-%description issue11to20 -l pl
+%description issue11to20 -l pl.UTF-8
 Ten pakiet zawiera wydania od 11 do 20 LinuxGazette.
 
 %package issue21to30
 Summary:	LinuxGazette - issues 21 to 30
-Summary(pl):	LinuxGazette - wydania od 21 do 30
+Summary(pl.UTF-8):   LinuxGazette - wydania od 21 do 30
 Group:		Documentation
 Requires:	lg-base >= 30
 
 %description issue21to30
 This package contains issues from 21 to 30 of LinuxGazette.
 
-%description issue21to30 -l pl
+%description issue21to30 -l pl.UTF-8
 Ten pakiet zawiera wydania od 21 do 30 LinuxGazette.
 
 %package issue31to40
 Summary:	LinuxGazette - issues 31 to 40
-Summary(pl):	LinuxGazette - wydania od 31 do 40
+Summary(pl.UTF-8):   LinuxGazette - wydania od 31 do 40
 Group:		Documentation
 Requires:	lg-base >= 40
 
 %description issue31to40
 This packages contains issues from 31 to 40 of LinuxGazette.
 
-%description issue31to40 -l pl
+%description issue31to40 -l pl.UTF-8
 Ten pakiet zawiera wydania od 31 do 40 LinuxGazette.
 
 %package issue41to50
 Summary:	LinuxGazette - issues 41 to 50
-Summary(pl):	LinuxGazette - wydania od 41 do 50
+Summary(pl.UTF-8):   LinuxGazette - wydania od 41 do 50
 Group:		Documentation
 Requires:	lg-base >= 50
 
 %description issue41to50
 This packages contains issues from 41 to 50 of LinuxGazette.
 
-%description issue41to50 -l pl
+%description issue41to50 -l pl.UTF-8
 Ten pakiet zawiera wydania od 41 do 50 LinuxGazette.
 
 %package issue51to60
 Summary:	LinuxGazette - issues 51 to 60
-Summary(pl):	LinuxGazette - wydania od 51 do 60
+Summary(pl.UTF-8):   LinuxGazette - wydania od 51 do 60
 Group:		Documentation
 Requires:	lg-base >= 60
 
 %description issue51to60
 This packages contains issues from 51 to 60 of LinuxGazette.
 
-%description issue51to60 -l pl
+%description issue51to60 -l pl.UTF-8
 Ten pakiet zawiera wydania od 51 do 60 LinuxGazette.
 
 %package issue61to70
 Summary:	LinuxGazette - issues 61 to 70
-Summary(pl):	LinuxGazette - wydania od 61 do 70
+Summary(pl.UTF-8):   LinuxGazette - wydania od 61 do 70
 Group:		Documentation
 Requires:	lg-base >= 70
 
 %description issue61to70
 This packages contains issues from 61 to 70 of LinuxGazette.
 
-%description issue61to70 -l pl
+%description issue61to70 -l pl.UTF-8
 Ten pakiet zawiera wydania od 61 do 70 LinuxGazette.
 
 %package issue71to80
 Summary:	LinuxGazette - issues 71 to 80
-Summary(pl):	LinuxGazette - wydania od 71 do 80
+Summary(pl.UTF-8):   LinuxGazette - wydania od 71 do 80
 Group:		Documentation
 Requires:	lg-base >= 80
 
 %description issue71to80
 This packages contains issues from 71 to 80 of LinuxGazette.
 
-%description issue71to80 -l pl
+%description issue71to80 -l pl.UTF-8
 Ten pakiet zawiera wydania od 71 do 80 LinuxGazette.
 
 %package issue81to90
 Summary:	LinuxGazette - issues 81 to 90
-Summary(pl):	LinuxGazette - wydania od 81 do 90
+Summary(pl.UTF-8):   LinuxGazette - wydania od 81 do 90
 Group:		Documentation
 Requires:	lg-base >= 90
 Conflicts:	lg-latest <= 90
@@ -367,12 +367,12 @@ Conflicts:	lg-latest <= 90
 %description issue81to90
 This packages contains issues from 81 to 90 of LinuxGazette.
 
-%description issue81to90 -l pl
+%description issue81to90 -l pl.UTF-8
 Ten pakiet zawiera wydania od 81 do 90 LinuxGazette.
 
 %package issue91to100
 Summary:	LinuxGazette - issues 91 to 100
-Summary(pl):	LinuxGazette - wydania od 91 do 100
+Summary(pl.UTF-8):   LinuxGazette - wydania od 91 do 100
 Group:		Documentation
 Requires:	lg-base >= 100
 Conflicts:	lg-latest <= 100
@@ -380,12 +380,12 @@ Conflicts:	lg-latest <= 100
 %description issue91to100
 This packages contains issues from 91 to 100 of LinuxGazette.
 
-%description issue91to100 -l pl
+%description issue91to100 -l pl.UTF-8
 Ten pakiet zawiera wydania od 91 do 100 LinuxGazette.
 
 %package issue101to110
 Summary:	LinuxGazette - issues 101 to 110
-Summary(pl):	LinuxGazette - wydania od 101 do 110
+Summary(pl.UTF-8):   LinuxGazette - wydania od 101 do 110
 Group:		Documentation
 Requires:	lg-base >= 110
 Conflicts:	lg-latest <= 110
@@ -393,12 +393,12 @@ Conflicts:	lg-latest <= 110
 %description issue101to110
 This packages contains issues from 101 to 110 of LinuxGazette.
 
-%description issue101to110 -l pl
+%description issue101to110 -l pl.UTF-8
 Ten pakiet zawiera wydania od 101 do 110 LinuxGazette.
 
 %package issue111to120
 Summary:	LinuxGazette - issues 111 to 120
-Summary(pl):	LinuxGazette - wydania od 111 do 120
+Summary(pl.UTF-8):   LinuxGazette - wydania od 111 do 120
 Group:		Documentation
 Requires:	lg-base >= 120
 Conflicts:	lg-latest <= 120
@@ -406,12 +406,12 @@ Conflicts:	lg-latest <= 120
 %description issue111to120
 This packages contains issues from 111 to 120 of LinuxGazette.
 
-%description issue111to120 -l pl
+%description issue111to120 -l pl.UTF-8
 Ten pakiet zawiera wydania od 111 do 120 LinuxGazette.
 
 %package issue121to130
 Summary:	LinuxGazette - issues 121 to 130
-Summary(pl):	LinuxGazette - wydania od 121 do 130
+Summary(pl.UTF-8):   LinuxGazette - wydania od 121 do 130
 Group:		Documentation
 Requires:	lg-base >= 130
 Conflicts:	lg-latest <= 130
@@ -419,7 +419,7 @@ Conflicts:	lg-latest <= 130
 %description issue121to130
 This packages contains issues from 121 to 130 of LinuxGazette.
 
-%description issue121to130 -l pl
+%description issue121to130 -l pl.UTF-8
 Ten pakiet zawiera wydania od 121 do 130 LinuxGazette.
 %prep
 %setup -q -n %{name} -b%(seq -s' -b' 9 %{version})
