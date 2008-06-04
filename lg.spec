@@ -1,7 +1,7 @@
 Summary:	LinuxGazette - issues 01 to 130
 Summary(pl.UTF-8):	LinuxGazette - wydania od 1 do 130
 Name:		lg
-Version:	130
+Version:	150
 Release:	1
 License:	distributable
 Group:		Documentation
@@ -251,6 +251,46 @@ Source129:	http://linuxgazette.net/ftpfiles/%{name}-129.tar.gz
 # Source129-md5:	28e93ccccfe7504bbe3a46039d4c3d85
 Source130:	http://linuxgazette.net/ftpfiles/%{name}-130.tar.gz
 # Source130-md5:	bf932b3a59ede4786ae704bf238323db
+Source131:	http://linuxgazette.net/ftpfiles/%{name}-131.tar.gz
+# Source131-md5:	3037540ededf9d801049ecd7b198c3d5
+Source132:	http://linuxgazette.net/ftpfiles/%{name}-132.tar.gz
+# Source132-md5:	f7b01866cb36430f8c95cff29449b6f9
+Source133:	http://linuxgazette.net/ftpfiles/%{name}-133.tar.gz
+# Source133-md5:	8448ae9f1cbacef991c99f38c5bcc893
+Source134:	http://linuxgazette.net/ftpfiles/%{name}-134.tar.gz
+# Source134-md5:	f0bd337f0840cb2bcada7c2e2b0bdbde
+Source135:	http://linuxgazette.net/ftpfiles/%{name}-135.tar.gz
+# Source135-md5:	8d4e8d51ea73996ae258e9bd47fa5700
+Source136:	http://linuxgazette.net/ftpfiles/%{name}-136.tar.gz
+# Source136-md5:	fc5ce33efc2b7c380e024bf828af8ebb
+Source137:	http://linuxgazette.net/ftpfiles/%{name}-137.tar.gz
+# Source137-md5:	c352985739cdb73def5b6a93d64f70f2
+Source138:	http://linuxgazette.net/ftpfiles/%{name}-138.tar.gz
+# Source138-md5:	3d56af4ea406037b4fd9aa7f5882933a
+Source139:	http://linuxgazette.net/ftpfiles/%{name}-139.tar.gz
+# Source139-md5:	7ae0f3c743c4bcafee2e7a2d6aa0e0aa
+Source140:	http://linuxgazette.net/ftpfiles/%{name}-140.tar.gz
+# Source140-md5:	c5d63b5639c5793ffd7e87dd89bf1583
+Source141:	http://linuxgazette.net/ftpfiles/%{name}-141.tar.gz
+# Source141-md5:	06a8923913eb3196619a909fde9afa37
+Source142:	http://linuxgazette.net/ftpfiles/%{name}-142.tar.gz
+# Source142-md5:	6a866693114440d1588c4ba7bc70ffc2
+Source143:	http://linuxgazette.net/ftpfiles/%{name}-143.tar.gz
+# Source143-md5:	f8dd80004ae35a770174ae2311487313
+Source144:	http://linuxgazette.net/ftpfiles/%{name}-144.tar.gz
+# Source144-md5:	93c43dc4a34387290a7e5263fba58c3c
+Source145:	http://linuxgazette.net/ftpfiles/%{name}-145.tar.gz
+# Source145-md5:	a8da1d79740d25a248667d5026c38c99
+Source146:	http://linuxgazette.net/ftpfiles/%{name}-146.tar.gz
+# Source146-md5:	42ee7eb6dc3b8b948897f48c944ddceb
+Source147:	http://linuxgazette.net/ftpfiles/%{name}-147.tar.gz
+# Source147-md5:	96edc5dd0877f962073a20e021dbc3d5
+Source148:	http://linuxgazette.net/ftpfiles/%{name}-148.tar.gz
+# Source148-md5:	145bd19cd32e11b93a52a763d4010204
+Source149:	http://linuxgazette.net/ftpfiles/%{name}-149.tar.gz
+# Source149-md5:	85f5f307f772317a756e36c00b78707b
+Source150:	http://linuxgazette.net/ftpfiles/%{name}-150.tar.gz
+# Source150-md5:	7e6f55df1cec456f717e8878721d8a4e
 URL:		http://www.linuxgazette.net/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -421,9 +461,36 @@ This packages contains issues from 121 to 130 of LinuxGazette.
 
 %description issue121to130 -l pl.UTF-8
 Ten pakiet zawiera wydania od 121 do 130 LinuxGazette.
+
+%package issue131to140
+Summary:	LinuxGazette - issues 131 to 140
+Summary(pl.UTF-8):	LinuxGazette - wydania od 131 do 140
+Group:		Documentation
+Requires:	lg-base >= 140
+Conflicts:	lg-latest <= 140
+
+%description issue131to140
+This packages contains issues from 131 to 140 of LinuxGazette.
+
+%description issue131to140 -l pl.UTF-8
+Ten pakiet zawiera wydania od 131 do 140 LinuxGazette.
+
+%package issue141to150
+Summary:	LinuxGazette - issues 141 to 150
+Summary(pl.UTF-8):	LinuxGazette - wydania od 141 do 150
+Group:		Documentation
+Requires:	lg-base >= 150
+Conflicts:	lg-latest <= 150
+
+%description issue141to150
+This packages contains issues from 141 to 150 of LinuxGazette.
+
+%description issue141to150 -l pl.UTF-8
+Ten pakiet zawiera wydania od 141 do 150 LinuxGazette.
+
 %prep
 %setup -q -n %{name} -b%(seq -s' -b' 9 %{version})
-for i in `seq 100 130`; do mv -f $i issue$i; done;
+for i in `seq 100 150`; do mv -f $i issue$i; done;
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -594,3 +661,29 @@ rm -rf $RPM_BUILD_ROOT
 %{_docdir}/LinuxGazette/issue128
 %{_docdir}/LinuxGazette/issue129
 %{_docdir}/LinuxGazette/issue130
+
+%files issue131to140
+%defattr(644,root,root,755)
+%{_docdir}/LinuxGazette/issue131
+%{_docdir}/LinuxGazette/issue132
+%{_docdir}/LinuxGazette/issue133
+%{_docdir}/LinuxGazette/issue134
+%{_docdir}/LinuxGazette/issue135
+%{_docdir}/LinuxGazette/issue136
+%{_docdir}/LinuxGazette/issue137
+%{_docdir}/LinuxGazette/issue138
+%{_docdir}/LinuxGazette/issue139
+%{_docdir}/LinuxGazette/issue140
+
+%files issue141to150
+%defattr(644,root,root,755)
+%{_docdir}/LinuxGazette/issue141
+%{_docdir}/LinuxGazette/issue142
+%{_docdir}/LinuxGazette/issue143
+%{_docdir}/LinuxGazette/issue144
+%{_docdir}/LinuxGazette/issue145
+%{_docdir}/LinuxGazette/issue146
+%{_docdir}/LinuxGazette/issue147
+%{_docdir}/LinuxGazette/issue148
+%{_docdir}/LinuxGazette/issue149
+%{_docdir}/LinuxGazette/issue150
