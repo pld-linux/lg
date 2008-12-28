@@ -1,5 +1,5 @@
-Summary:	LinuxGazette - issues 01 to 130
-Summary(pl.UTF-8):	LinuxGazette - wydania od 1 do 130
+Summary:	LinuxGazette - issues 01 to 150
+Summary(pl.UTF-8):	LinuxGazette - wydania od 1 do 150
 Name:		lg
 Version:	150
 Release:	1
